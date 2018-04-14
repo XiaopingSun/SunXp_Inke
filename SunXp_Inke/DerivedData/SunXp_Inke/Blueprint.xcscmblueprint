@@ -1,0 +1,23 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6499608EF07E9FB2E69DB46D8727C0775407C654",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6499608EF07E9FB2E69DB46D8727C0775407C654" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9B31699F-E543-440A-8E41-F89670F8EA70",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6499608EF07E9FB2E69DB46D8727C0775407C654" : "SunXp_Inke\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SunXp_Inke",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SunXp_Inke\/SunXp_Inke.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git@github.com:iOSOfSunXp\/SunXp_Inke.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6499608EF07E9FB2E69DB46D8727C0775407C654"
+    }
+  ]
+}

@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF606D5C2081D5CE005F450B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D5B2081D5CE005F450B /* AppDelegate.m */; };
+		DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5D2081D5D0005F450B /* Assets.xcassets */; };
+		DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */; };
+		DF606D642081D5D0005F450B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D632081D5D0005F450B /* main.m */; };
+		DF606D6E2081D5D0005F450B /* SunXp_InkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */; };
+		DF606D792081D5D0005F450B /* SunXp_InkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */; };
+		DF606D882081D620005F450B /* SXPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D872081D620005F450B /* SXPBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF606D6A2081D5D0005F450B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF606D4F2081D5CE005F450B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF606D562081D5CE005F450B;
+			remoteInfo = SunXp_Inke;
+		};
+		DF606D752081D5D0005F450B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF606D4F2081D5CE005F450B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF606D562081D5CE005F450B;
+			remoteInfo = SunXp_Inke;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF606D572081D5CE005F450B /* SunXp_Inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunXp_Inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF606D5A2081D5CE005F450B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF606D5B2081D5CE005F450B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF606D5D2081D5D0005F450B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF606D602081D5D0005F450B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF606D622081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF606D632081D5D0005F450B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF606D692081D5D0005F450B /* SunXp_InkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunXp_InkeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunXp_InkeTests.m; sourceTree = "<group>"; };
+		DF606D6F2081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF606D742081D5D0005F450B /* SunXp_InkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunXp_InkeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunXp_InkeUITests.m; sourceTree = "<group>"; };
+		DF606D7A2081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF606D862081D620005F450B /* SXPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPBaseViewController.h; sourceTree = "<group>"; };
+		DF606D872081D620005F450B /* SXPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF606D542081D5CE005F450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D662081D5D0005F450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D712081D5D0005F450B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF606D4E2081D5CE005F450B = {
+			isa = PBXGroup;
+			children = (
+				DF606D592081D5CE005F450B /* SunXp_Inke */,
+				DF606D6C2081D5D0005F450B /* SunXp_InkeTests */,
+				DF606D772081D5D0005F450B /* SunXp_InkeUITests */,
+				DF606D582081D5CE005F450B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF606D582081D5CE005F450B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF606D572081D5CE005F450B /* SunXp_Inke.app */,
+				DF606D692081D5D0005F450B /* SunXp_InkeTests.xctest */,
+				DF606D742081D5D0005F450B /* SunXp_InkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF606D592081D5CE005F450B /* SunXp_Inke */ = {
+			isa = PBXGroup;
+			children = (
+				DF606D5A2081D5CE005F450B /* AppDelegate.h */,
+				DF606D5B2081D5CE005F450B /* AppDelegate.m */,
+				DF606D862081D620005F450B /* SXPBaseViewController.h */,
+				DF606D872081D620005F450B /* SXPBaseViewController.m */,
+				DF606D5D2081D5D0005F450B /* Assets.xcassets */,
+				DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */,
+				DF606D622081D5D0005F450B /* Info.plist */,
+				DF606D632081D5D0005F450B /* main.m */,
+			);
+			path = SunXp_Inke;
+			sourceTree = "<group>";
+		};
+		DF606D6C2081D5D0005F450B /* SunXp_InkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */,
+				DF606D6F2081D5D0005F450B /* Info.plist */,
+			);
+			path = SunXp_InkeTests;
+			sourceTree = "<group>";
+		};
+		DF606D772081D5D0005F450B /* SunXp_InkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */,
+				DF606D7A2081D5D0005F450B /* Info.plist */,
+			);
+			path = SunXp_InkeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF606D562081D5CE005F450B /* SunXp_Inke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF606D7D2081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_Inke" */;
+			buildPhases = (
+				DF606D532081D5CE005F450B /* Sources */,
+				DF606D542081D5CE005F450B /* Frameworks */,
+				DF606D552081D5CE005F450B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunXp_Inke;
+			productName = SunXp_Inke;
+			productReference = DF606D572081D5CE005F450B /* SunXp_Inke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF606D682081D5D0005F450B /* SunXp_InkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF606D802081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeTests" */;
+			buildPhases = (
+				DF606D652081D5D0005F450B /* Sources */,
+				DF606D662081D5D0005F450B /* Frameworks */,
+				DF606D672081D5D0005F450B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF606D6B2081D5D0005F450B /* PBXTargetDependency */,
+			);
+			name = SunXp_InkeTests;
+			productName = SunXp_InkeTests;
+			productReference = DF606D692081D5D0005F450B /* SunXp_InkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF606D732081D5D0005F450B /* SunXp_InkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF606D832081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeUITests" */;
+			buildPhases = (
+				DF606D702081D5D0005F450B /* Sources */,
+				DF606D712081D5D0005F450B /* Frameworks */,
+				DF606D722081D5D0005F450B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF606D762081D5D0005F450B /* PBXTargetDependency */,
+			);
+			name = SunXp_InkeUITests;
+			productName = SunXp_InkeUITests;
+			productReference = DF606D742081D5D0005F450B /* SunXp_InkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF606D4F2081D5CE005F450B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SXP;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = SunXP;
+				TargetAttributes = {
+					DF606D562081D5CE005F450B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DF606D682081D5D0005F450B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF606D562081D5CE005F450B;
+					};
+					DF606D732081D5D0005F450B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DF606D562081D5CE005F450B;
+					};
+				};
+			};
+			buildConfigurationList = DF606D522081D5CE005F450B /* Build configuration list for PBXProject "SunXp_Inke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF606D4E2081D5CE005F450B;
+			productRefGroup = DF606D582081D5CE005F450B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF606D562081D5CE005F450B /* SunXp_Inke */,
+				DF606D682081D5D0005F450B /* SunXp_InkeTests */,
+				DF606D732081D5D0005F450B /* SunXp_InkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF606D552081D5CE005F450B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */,
+				DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D672081D5D0005F450B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D722081D5D0005F450B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF606D532081D5CE005F450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF606D642081D5D0005F450B /* main.m in Sources */,
+				DF606D5C2081D5CE005F450B /* AppDelegate.m in Sources */,
+				DF606D882081D620005F450B /* SXPBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D652081D5D0005F450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF606D6E2081D5D0005F450B /* SunXp_InkeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF606D702081D5D0005F450B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF606D792081D5D0005F450B /* SunXp_InkeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF606D6B2081D5D0005F450B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF606D562081D5CE005F450B /* SunXp_Inke */;
+			targetProxy = DF606D6A2081D5D0005F450B /* PBXContainerItemProxy */;
+		};
+		DF606D762081D5D0005F450B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF606D562081D5CE005F450B /* SunXp_Inke */;
+			targetProxy = DF606D752081D5D0005F450B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF606D602081D5D0005F450B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF606D7B2081D5D0005F450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF606D7C2081D5D0005F450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF606D7E2081D5D0005F450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_Inke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-Inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF606D7F2081D5D0005F450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_Inke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-Inke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF606D812081D5D0005F450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunXp_Inke.app/SunXp_Inke";
+			};
+			name = Debug;
+		};
+		DF606D822081D5D0005F450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SunXp_Inke.app/SunXp_Inke";
+			};
+			name = Release;
+		};
+		DF606D842081D5D0005F450B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunXp_Inke;
+			};
+			name = Debug;
+		};
+		DF606D852081D5D0005F450B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HD56DK4J54;
+				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SunXp_Inke;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF606D522081D5CE005F450B /* Build configuration list for PBXProject "SunXp_Inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF606D7B2081D5D0005F450B /* Debug */,
+				DF606D7C2081D5D0005F450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF606D7D2081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_Inke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF606D7E2081D5D0005F450B /* Debug */,
+				DF606D7F2081D5D0005F450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF606D802081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF606D812081D5D0005F450B /* Debug */,
+				DF606D822081D5D0005F450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF606D832081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF606D842081D5D0005F450B /* Debug */,
+				DF606D852081D5D0005F450B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF606D4F2081D5CE005F450B /* Project object */;
+}
