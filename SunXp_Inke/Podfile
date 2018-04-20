@@ -21,5 +21,6 @@ target 'SunXp_Inke' do
   pod 'SDWebImage', '~> 4.3.3'
   pod 'Masonry', '~> 1.1.0'
   pod 'YYKit', '~> 1.0.9'
+  pod 'MJExtension', '~> 3.0.13'
 
 end

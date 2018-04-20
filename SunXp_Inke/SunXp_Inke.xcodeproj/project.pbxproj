@@ -10,6 +10,13 @@
 		8D7B34C88465F5849D19B710 /* libPods-SunXp_InkeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */; };
 		9F3D3B28D5336F669C2FA174 /* libPods-SunXp_Inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */; };
 		AA77EDDCD3E660635241A6FB /* libPods-SunXp_InkeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */; };
+		DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */; };
+		DF57ECB32089D7E500A3461A /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECB22089D7E500A3461A /* HttpTool.m */; };
+		DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECB52089D7EC00A3461A /* UIImageView+SDWebImage.m */; };
+		DF57ECB92089E04100A3461A /* SXPBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECB82089E04100A3461A /* SXPBaseHandler.m */; };
+		DF57ECBC2089E12100A3461A /* SXPShowHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECBB2089E12100A3461A /* SXPShowHandler.m */; };
+		DF57ECBF2089E64F00A3461A /* SXPShow.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECBE2089E64F00A3461A /* SXPShow.m */; };
+		DF57ECC22089E68A00A3461A /* SXPCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECC12089E68A00A3461A /* SXPCreator.m */; };
 		DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5D2081D5D0005F450B /* Assets.xcassets */; };
 		DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */; };
 		DF606D642081D5D0005F450B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D632081D5D0005F450B /* main.m */; };
@@ -57,6 +64,21 @@
 		BA6B12C00A8B700187965A37 /* Pods-SunXp_InkeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeTests/Pods-SunXp_InkeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_InkeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_Inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF57ECAB2089CA4500A3461A /* SXPMainTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMainTopView.h; sourceTree = "<group>"; };
+		DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPMainTopView.m; sourceTree = "<group>"; };
+		DF57ECAE2089D73800A3461A /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
+		DF57ECB12089D7E500A3461A /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		DF57ECB22089D7E500A3461A /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		DF57ECB42089D7EC00A3461A /* UIImageView+SDWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SDWebImage.h"; sourceTree = "<group>"; };
+		DF57ECB52089D7EC00A3461A /* UIImageView+SDWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SDWebImage.m"; sourceTree = "<group>"; };
+		DF57ECB72089E04100A3461A /* SXPBaseHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPBaseHandler.h; sourceTree = "<group>"; };
+		DF57ECB82089E04100A3461A /* SXPBaseHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPBaseHandler.m; sourceTree = "<group>"; };
+		DF57ECBA2089E12100A3461A /* SXPShowHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPShowHandler.h; sourceTree = "<group>"; };
+		DF57ECBB2089E12100A3461A /* SXPShowHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPShowHandler.m; sourceTree = "<group>"; };
+		DF57ECBD2089E64F00A3461A /* SXPShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPShow.h; sourceTree = "<group>"; };
+		DF57ECBE2089E64F00A3461A /* SXPShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPShow.m; sourceTree = "<group>"; };
+		DF57ECC02089E68A00A3461A /* SXPCreator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPCreator.h; sourceTree = "<group>"; };
+		DF57ECC12089E68A00A3461A /* SXPCreator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPCreator.m; sourceTree = "<group>"; };
 		DF606D572081D5CE005F450B /* SunXp_Inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunXp_Inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF606D5D2081D5D0005F450B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF606D602081D5D0005F450B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -247,6 +269,8 @@
 		DF689C3420886C1600A09E2E /* Handler */ = {
 			isa = PBXGroup;
 			children = (
+				DF57ECBA2089E12100A3461A /* SXPShowHandler.h */,
+				DF57ECBB2089E12100A3461A /* SXPShowHandler.m */,
 			);
 			path = Handler;
 			sourceTree = "<group>";
@@ -254,6 +278,10 @@
 		DF689C3520886C1600A09E2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF57ECBD2089E64F00A3461A /* SXPShow.h */,
+				DF57ECBE2089E64F00A3461A /* SXPShow.m */,
+				DF57ECC02089E68A00A3461A /* SXPCreator.h */,
+				DF57ECC12089E68A00A3461A /* SXPCreator.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,6 +289,8 @@
 		DF689C3620886C1600A09E2E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF57ECAB2089CA4500A3461A /* SXPMainTopView.h */,
+				DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -287,6 +317,11 @@
 		DF689C3820886C1600A09E2E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				DF57ECAE2089D73800A3461A /* APIConfig.h */,
+				DF57ECB12089D7E500A3461A /* HttpTool.h */,
+				DF57ECB22089D7E500A3461A /* HttpTool.m */,
+				DF57ECB42089D7EC00A3461A /* UIImageView+SDWebImage.h */,
+				DF57ECB52089D7EC00A3461A /* UIImageView+SDWebImage.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -427,6 +462,8 @@
 				DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */,
 				DFDAE7F9208882F3004C0334 /* SXPTabBar.h */,
 				DFDAE7FA208882F3004C0334 /* SXPTabBar.m */,
+				DF57ECB72089E04100A3461A /* SXPBaseHandler.h */,
+				DF57ECB82089E04100A3461A /* SXPBaseHandler.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -640,8 +677,12 @@
 			files = (
 				DFDAE80420888AD6004C0334 /* SXPMyViewController.m in Sources */,
 				DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */,
+				DF57ECC22089E68A00A3461A /* SXPCreator.m in Sources */,
 				DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */,
 				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
+				DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */,
+				DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */,
+				DF57ECBF2089E64F00A3461A /* SXPShow.m in Sources */,
 				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
 				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
 				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,
@@ -650,6 +691,9 @@
 				DF689C4F20886D4800A09E2E /* SXPBaseViewController.m in Sources */,
 				DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */,
 				DFDAE7FF20888A90004C0334 /* SXPMainViewController.m in Sources */,
+				DF57ECBC2089E12100A3461A /* SXPShowHandler.m in Sources */,
+				DF57ECB32089D7E500A3461A /* HttpTool.m in Sources */,
+				DF57ECB92089E04100A3461A /* SXPBaseHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
