@@ -7,8 +7,11 @@
 //
 
 #import "SXPHotViewController.h"
+#import "SXPShowHandler.h"
 
 @interface SXPHotViewController ()
+
+@property (nonatomic, strong) NSMutableArray *dataListArray;
 
 @end
 
@@ -17,6 +20,51 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    [self initUI];
+    [self loadData];
+}
+
+- (void)initUI {
+    
+    
+}
+
+- (void)loadData {
+    
+    [SXPShowHandler httpGetHotLiveInfoWithSuccess:^(id obj) {
+         [self.dataListArray addObjectsFromArray:obj];
+         [self.tableView reloadData];
+    } failed:^(id obj) {
+        NSLog(@"%@", obj);
+    }];
+}
+
+//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+//
+//    return self.dataListArray.count;
+//}
+//
+//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//
+//    
+//}
+//
+//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+//
+//    
+//}
+//
+//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+//
+//    
+//}
+
+- (NSMutableArray *)dataListArray {
+    
+    if(!_dataListArray) {
+        _dataListArray = [NSMutableArray array];
+    }
+    return _dataListArray;
 }
 
 - (void)didReceiveMemoryWarning {

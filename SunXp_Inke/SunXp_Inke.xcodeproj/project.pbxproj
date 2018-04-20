@@ -10,6 +10,7 @@
 		8D7B34C88465F5849D19B710 /* libPods-SunXp_InkeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */; };
 		9F3D3B28D5336F669C2FA174 /* libPods-SunXp_Inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */; };
 		AA77EDDCD3E660635241A6FB /* libPods-SunXp_InkeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */; };
+		DF47E7D22089EC5E00B116B7 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DF47E7D12089EC5E00B116B7 /* MJExtensionConfig.m */; };
 		DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */; };
 		DF57ECB32089D7E500A3461A /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECB22089D7E500A3461A /* HttpTool.m */; };
 		DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DF57ECB52089D7EC00A3461A /* UIImageView+SDWebImage.m */; };
@@ -64,6 +65,8 @@
 		BA6B12C00A8B700187965A37 /* Pods-SunXp_InkeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeTests/Pods-SunXp_InkeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_InkeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_Inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF47E7D02089EC5E00B116B7 /* MJExtensionConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
+		DF47E7D12089EC5E00B116B7 /* MJExtensionConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
 		DF57ECAB2089CA4500A3461A /* SXPMainTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMainTopView.h; sourceTree = "<group>"; };
 		DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPMainTopView.m; sourceTree = "<group>"; };
 		DF57ECAE2089D73800A3461A /* APIConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIConfig.h; sourceTree = "<group>"; };
@@ -440,6 +443,8 @@
 			children = (
 				DF689C502088778D00A09E2E /* SunXp_Inke.pch */,
 				DFDAE7F52088817B004C0334 /* SXPMacros.h */,
+				DF47E7D02089EC5E00B116B7 /* MJExtensionConfig.h */,
+				DF47E7D12089EC5E00B116B7 /* MJExtensionConfig.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -683,6 +688,7 @@
 				DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */,
 				DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */,
 				DF57ECBF2089E64F00A3461A /* SXPShow.m in Sources */,
+				DF47E7D22089EC5E00B116B7 /* MJExtensionConfig.m in Sources */,
 				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
 				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
 				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,

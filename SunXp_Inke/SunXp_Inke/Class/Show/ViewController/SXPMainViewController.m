@@ -8,7 +8,6 @@
 
 #import "SXPMainViewController.h"
 #import "SXPMainTopView.h"
-#import "SXPShowHandler.h"
 
 @interface SXPMainViewController () <UIScrollViewDelegate>
 
@@ -27,7 +26,6 @@
     // Do any additional setup after loading the view from its nib.
     
     [self initUI];
-    [self loadData];
 }
 
 - (void)initUI {
@@ -36,15 +34,7 @@
     [self addChildViewController];
 }
 
-- (void)loadData {
-    
-    [SXPShowHandler httpGetHotLiveInfoWithSuccess:^(id obj) {
-        NSLog(@"%@", obj);
-        NSLog(@"fdf");
-    } failed:^(id obj) {
-        NSLog(@"%@", obj);
-    }];
-}
+
 
 - (void)updateNavigation {
     

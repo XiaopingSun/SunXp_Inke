@@ -8,6 +8,7 @@
 
 #import "SXPShowHandler.h"
 #import "HttpTool.h"
+#import "SXPShow.h"
 
 @implementation SXPShowHandler
 
@@ -18,7 +19,8 @@
         if ([json[@"dm_error"] integerValue]) {
             failed(json);
         } else {
-            success(json);
+            NSArray *liveList = [SXPShow mj_objectArrayWithKeyValuesArray:json[@"lives"]];
+            success(liveList);
         }
         
     } failure:^(NSError *error) {
