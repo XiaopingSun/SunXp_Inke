@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sunxp/SunXp_Inke/SunXp_Inke/SunXp_Inke/SXPBaseViewController.m \
-  /Users/sunxp/SunXp_Inke/SunXp_Inke/SunXp_Inke/SXPBaseViewController.h
+  /Users/sunxp/practice/SunXp_Inke/SunXp_Inke/Class/Base/SXPBaseViewController.m \
+  /Users/sunxp/practice/SunXp_Inke/SunXp_Inke/Class/Base/SXPBaseViewController.h

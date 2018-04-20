@@ -8,25 +8,26 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSUInteger, SXPTarBarItemType) {
+typedef NS_ENUM(NSUInteger, SXPTabBarItemType) {
     
-    SXPTarBarItemTypeLiveType, // 直播
-    SXPTarBarItemTypeMyType   // 我的
+    SXPTabBarItemTypeLiveType, // 直播
+    SXPTabBarItemTypeMyType,   // 我的
+    SXPTabBarItemTypeLaunch     // 启动直播
 };
 
 @class SXPTabBar;
 
-typedef void(^SXPTabBarBlock)(SXPTabBar *tabbar, SXPTarBarItemType type);
+typedef void(^SXPTabBarBlock)(SXPTabBar *tabbar, SXPTabBarItemType type);
 
-@protocol SXPTarBarDelegate <NSObject>
+@protocol SXPTabBarDelegate <NSObject>
 
-- (void)tarbar:(SXPTabBar *)tarbar clickButton:(NSUInteger)index;
+- (void)tabbar:(SXPTabBar *)tabbar clickButton:(SXPTabBarItemType)index;
 
 @end
 
 @interface SXPTabBar : UIView
 
-@property (nonatomic, weak) id<SXPTarBarDelegate> delegate;
+@property (nonatomic, weak) id<SXPTabBarDelegate> delegate;
 
 @property (nonatomic, copy) SXPTabBarBlock block;
 

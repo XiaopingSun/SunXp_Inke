@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -15,8 +18,35 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_zbfx" translatesAutoresizingMaskIntoConstraints="NO" id="caQ-PH-jSK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ega-q4-rBe">
+                    <rect key="frame" x="311" y="0.0" width="64" height="64"/>
+                    <state key="normal" image="launch_close"/>
+                    <connections>
+                        <action selector="closeLaunch:" destination="-1" eventType="touchUpInside" id="ZgU-JX-jnD"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <constraints>
+                <constraint firstItem="caQ-PH-jSK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7fL-sr-BF4"/>
+                <constraint firstAttribute="trailing" secondItem="ega-q4-rBe" secondAttribute="trailing" id="AaL-Va-hIL"/>
+                <constraint firstAttribute="bottom" secondItem="caQ-PH-jSK" secondAttribute="bottom" id="Apa-uR-Fxb"/>
+                <constraint firstAttribute="trailing" secondItem="caQ-PH-jSK" secondAttribute="trailing" id="CDV-iB-j57"/>
+                <constraint firstItem="caQ-PH-jSK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HLa-gk-73W"/>
+                <constraint firstAttribute="trailing" secondItem="caQ-PH-jSK" secondAttribute="trailing" id="S6D-wC-fuF"/>
+                <constraint firstItem="ega-q4-rBe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Xtq-YF-kf8"/>
+                <constraint firstItem="caQ-PH-jSK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jzP-mU-FxX"/>
+                <constraint firstAttribute="bottom" secondItem="caQ-PH-jSK" secondAttribute="bottom" id="w3q-Rk-uFc"/>
+                <constraint firstItem="caQ-PH-jSK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xpP-jM-DeQ"/>
+            </constraints>
         </view>
     </objects>
+    <resources>
+        <image name="bg_zbfx" width="250" height="444"/>
+        <image name="launch_close" width="64" height="64"/>
+    </resources>
 </document>

@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DF606D5C2081D5CE005F450B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D5B2081D5CE005F450B /* AppDelegate.m */; };
+		8D7B34C88465F5849D19B710 /* libPods-SunXp_InkeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */; };
+		9F3D3B28D5336F669C2FA174 /* libPods-SunXp_Inke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */; };
+		AA77EDDCD3E660635241A6FB /* libPods-SunXp_InkeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */; };
 		DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5D2081D5D0005F450B /* Assets.xcassets */; };
 		DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */; };
 		DF606D642081D5D0005F450B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D632081D5D0005F450B /* main.m */; };
-		DF606D6E2081D5D0005F450B /* SunXp_InkeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */; };
-		DF606D792081D5D0005F450B /* SunXp_InkeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */; };
-		DF606D882081D620005F450B /* SXPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D872081D620005F450B /* SXPBaseViewController.m */; };
+		DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF689C4B20886D3700A09E2E /* AppDelegate.m */; };
+		DF689C4F20886D4800A09E2E /* SXPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF689C4D20886D4800A09E2E /* SXPBaseViewController.m */; };
+		DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2077F2088B79700910127 /* SXPLaunchViewController.m */; };
+		DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207802088B79700910127 /* SXPLaunchViewController.xib */; };
+		DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207842088BD0A00910127 /* SXPFollowViewController.m */; };
+		DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207852088BD0A00910127 /* SXPFollowViewController.xib */; };
+		DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207892088BD3400910127 /* SXPHotViewController.m */; };
+		DFB2078C2088BD3400910127 /* SXPHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB2078A2088BD3400910127 /* SXPHotViewController.xib */; };
+		DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2078E2088BD4B00910127 /* SXPNearViewController.m */; };
+		DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */; };
+		DFDAE7F8208882D3004C0334 /* SXPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */; };
+		DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE7FA208882F3004C0334 /* SXPTabBar.m */; };
+		DFDAE7FF20888A90004C0334 /* SXPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE7FD20888A90004C0334 /* SXPMainViewController.m */; };
+		DFDAE80020888A90004C0334 /* SXPMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE7FE20888A90004C0334 /* SXPMainViewController.xib */; };
+		DFDAE80420888AD6004C0334 /* SXPMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE80220888AD6004C0334 /* SXPMyViewController.m */; };
+		DFDAE80520888AD6004C0334 /* SXPMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */; };
+		DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE80720888BB5004C0334 /* SXPBaseNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +50,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1260CDC0EEBB3E3392E232E7 /* Pods-SunXp_InkeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeUITests/Pods-SunXp_InkeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		242CDAA72F1A0E85D0A0769C /* Pods-SunXp_InkeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeUITests/Pods-SunXp_InkeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_InkeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CCA68263F83EFD94AD3E90 /* Pods-SunXp_InkeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeTests/Pods-SunXp_InkeTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA6B12C00A8B700187965A37 /* Pods-SunXp_InkeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_InkeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_InkeTests/Pods-SunXp_InkeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_InkeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SunXp_Inke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF606D572081D5CE005F450B /* SunXp_Inke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunXp_Inke.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF606D5A2081D5CE005F450B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DF606D5B2081D5CE005F450B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DF606D5D2081D5D0005F450B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF606D602081D5D0005F450B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF606D622081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF606D632081D5D0005F450B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF606D692081D5D0005F450B /* SunXp_InkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunXp_InkeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunXp_InkeTests.m; sourceTree = "<group>"; };
-		DF606D6F2081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF606D742081D5D0005F450B /* SunXp_InkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunXp_InkeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunXp_InkeUITests.m; sourceTree = "<group>"; };
-		DF606D7A2081D5D0005F450B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF606D862081D620005F450B /* SXPBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPBaseViewController.h; sourceTree = "<group>"; };
-		DF606D872081D620005F450B /* SXPBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPBaseViewController.m; sourceTree = "<group>"; };
+		DF689C4A20886D3700A09E2E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF689C4B20886D3700A09E2E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF689C4D20886D4800A09E2E /* SXPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXPBaseViewController.m; sourceTree = "<group>"; };
+		DF689C4E20886D4800A09E2E /* SXPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPBaseViewController.h; sourceTree = "<group>"; };
+		DF689C502088778D00A09E2E /* SunXp_Inke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunXp_Inke.pch; sourceTree = "<group>"; };
+		DFB2077E2088B79700910127 /* SXPLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLaunchViewController.h; sourceTree = "<group>"; };
+		DFB2077F2088B79700910127 /* SXPLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLaunchViewController.m; sourceTree = "<group>"; };
+		DFB207802088B79700910127 /* SXPLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLaunchViewController.xib; sourceTree = "<group>"; };
+		DFB207832088BD0A00910127 /* SXPFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPFollowViewController.h; sourceTree = "<group>"; };
+		DFB207842088BD0A00910127 /* SXPFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPFollowViewController.m; sourceTree = "<group>"; };
+		DFB207852088BD0A00910127 /* SXPFollowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPFollowViewController.xib; sourceTree = "<group>"; };
+		DFB207882088BD3400910127 /* SXPHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPHotViewController.h; sourceTree = "<group>"; };
+		DFB207892088BD3400910127 /* SXPHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPHotViewController.m; sourceTree = "<group>"; };
+		DFB2078A2088BD3400910127 /* SXPHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPHotViewController.xib; sourceTree = "<group>"; };
+		DFB2078D2088BD4B00910127 /* SXPNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPNearViewController.h; sourceTree = "<group>"; };
+		DFB2078E2088BD4B00910127 /* SXPNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPNearViewController.m; sourceTree = "<group>"; };
+		DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPNearViewController.xib; sourceTree = "<group>"; };
+		DFDAE7F52088817B004C0334 /* SXPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMacros.h; sourceTree = "<group>"; };
+		DFDAE7F6208882D3004C0334 /* SXPTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPTabBarViewController.h; sourceTree = "<group>"; };
+		DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPTabBarViewController.m; sourceTree = "<group>"; };
+		DFDAE7F9208882F3004C0334 /* SXPTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPTabBar.h; sourceTree = "<group>"; };
+		DFDAE7FA208882F3004C0334 /* SXPTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPTabBar.m; sourceTree = "<group>"; };
+		DFDAE7FC20888A90004C0334 /* SXPMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMainViewController.h; sourceTree = "<group>"; };
+		DFDAE7FD20888A90004C0334 /* SXPMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPMainViewController.m; sourceTree = "<group>"; };
+		DFDAE7FE20888A90004C0334 /* SXPMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPMainViewController.xib; sourceTree = "<group>"; };
+		DFDAE80120888AD6004C0334 /* SXPMyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMyViewController.h; sourceTree = "<group>"; };
+		DFDAE80220888AD6004C0334 /* SXPMyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPMyViewController.m; sourceTree = "<group>"; };
+		DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPMyViewController.xib; sourceTree = "<group>"; };
+		DFDAE80620888BB5004C0334 /* SXPBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPBaseNavigationViewController.h; sourceTree = "<group>"; };
+		DFDAE80720888BB5004C0334 /* SXPBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPBaseNavigationViewController.m; sourceTree = "<group>"; };
+		EA9B87BA48BC56145B86948D /* Pods-SunXp_Inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.debug.xcconfig"; sourceTree = "<group>"; };
+		F364DEEAE41368CC5151D13F /* Pods-SunXp_Inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3D3B28D5336F669C2FA174 /* libPods-SunXp_Inke.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7B34C88465F5849D19B710 /* libPods-SunXp_InkeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +119,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA77EDDCD3E660635241A6FB /* libPods-SunXp_InkeUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56BB8CB44F65AED18B7A915E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */,
+				BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */,
+				5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CADB3507D6ECFCAF275885B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA9B87BA48BC56145B86948D /* Pods-SunXp_Inke.debug.xcconfig */,
+				F364DEEAE41368CC5151D13F /* Pods-SunXp_Inke.release.xcconfig */,
+				BA6B12C00A8B700187965A37 /* Pods-SunXp_InkeTests.debug.xcconfig */,
+				64CCA68263F83EFD94AD3E90 /* Pods-SunXp_InkeTests.release.xcconfig */,
+				242CDAA72F1A0E85D0A0769C /* Pods-SunXp_InkeUITests.debug.xcconfig */,
+				1260CDC0EEBB3E3392E232E7 /* Pods-SunXp_InkeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DF606D4E2081D5CE005F450B = {
 			isa = PBXGroup;
 			children = (
 				DF606D592081D5CE005F450B /* SunXp_Inke */,
-				DF606D6C2081D5D0005F450B /* SunXp_InkeTests */,
-				DF606D772081D5D0005F450B /* SunXp_InkeUITests */,
 				DF606D582081D5CE005F450B /* Products */,
+				CADB3507D6ECFCAF275885B5 /* Pods */,
+				56BB8CB44F65AED18B7A915E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,34 +172,274 @@
 		DF606D592081D5CE005F450B /* SunXp_Inke */ = {
 			isa = PBXGroup;
 			children = (
-				DF606D5A2081D5CE005F450B /* AppDelegate.h */,
-				DF606D5B2081D5CE005F450B /* AppDelegate.m */,
-				DF606D862081D620005F450B /* SXPBaseViewController.h */,
-				DF606D872081D620005F450B /* SXPBaseViewController.m */,
+				DF689C2D20886C1600A09E2E /* Class */,
+				DF689C4920886C8F00A09E2E /* Supporting Files */,
+			);
+			path = SunXp_Inke;
+			sourceTree = "<group>";
+		};
+		DF689C2D20886C1600A09E2E /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C2E20886C1600A09E2E /* Launch */,
+				DF689C3320886C1600A09E2E /* Show */,
+				DF689C3A20886C1600A09E2E /* Live */,
+				DF689C3F20886C1600A09E2E /* My */,
+				DF689C4420886C1600A09E2E /* Lib */,
+				DF689C3820886C1600A09E2E /* Network */,
+				DF689C4520886C1600A09E2E /* Helper */,
+				DF689C4820886C1600A09E2E /* Base */,
+				DF689C3920886C1600A09E2E /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DF689C2E20886C1600A09E2E /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C2F20886C1600A09E2E /* Handler */,
+				DF689C3020886C1600A09E2E /* Model */,
+				DF689C3120886C1600A09E2E /* View */,
+				DF689C3220886C1600A09E2E /* ViewController */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		DF689C2F20886C1600A09E2E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		DF689C3020886C1600A09E2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF689C3120886C1600A09E2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF689C3220886C1600A09E2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DF689C3320886C1600A09E2E /* Show */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C3420886C1600A09E2E /* Handler */,
+				DF689C3520886C1600A09E2E /* Model */,
+				DF689C3620886C1600A09E2E /* View */,
+				DF689C3720886C1600A09E2E /* ViewController */,
+			);
+			path = Show;
+			sourceTree = "<group>";
+		};
+		DF689C3420886C1600A09E2E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		DF689C3520886C1600A09E2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF689C3620886C1600A09E2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF689C3720886C1600A09E2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFDAE7FC20888A90004C0334 /* SXPMainViewController.h */,
+				DFDAE7FD20888A90004C0334 /* SXPMainViewController.m */,
+				DFDAE7FE20888A90004C0334 /* SXPMainViewController.xib */,
+				DFB207832088BD0A00910127 /* SXPFollowViewController.h */,
+				DFB207842088BD0A00910127 /* SXPFollowViewController.m */,
+				DFB207852088BD0A00910127 /* SXPFollowViewController.xib */,
+				DFB207882088BD3400910127 /* SXPHotViewController.h */,
+				DFB207892088BD3400910127 /* SXPHotViewController.m */,
+				DFB2078A2088BD3400910127 /* SXPHotViewController.xib */,
+				DFB2078D2088BD4B00910127 /* SXPNearViewController.h */,
+				DFB2078E2088BD4B00910127 /* SXPNearViewController.m */,
+				DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DF689C3820886C1600A09E2E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DF689C3920886C1600A09E2E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C4A20886D3700A09E2E /* AppDelegate.h */,
+				DF689C4B20886D3700A09E2E /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DF689C3A20886C1600A09E2E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C3B20886C1600A09E2E /* Handler */,
+				DF689C3C20886C1600A09E2E /* Model */,
+				DF689C3D20886C1600A09E2E /* View */,
+				DF689C3E20886C1600A09E2E /* ViewController */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		DF689C3B20886C1600A09E2E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		DF689C3C20886C1600A09E2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF689C3D20886C1600A09E2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF689C3E20886C1600A09E2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFB2077E2088B79700910127 /* SXPLaunchViewController.h */,
+				DFB2077F2088B79700910127 /* SXPLaunchViewController.m */,
+				DFB207802088B79700910127 /* SXPLaunchViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DF689C3F20886C1600A09E2E /* My */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C4020886C1600A09E2E /* Handler */,
+				DF689C4120886C1600A09E2E /* Model */,
+				DF689C4220886C1600A09E2E /* View */,
+				DF689C4320886C1600A09E2E /* ViewController */,
+			);
+			path = My;
+			sourceTree = "<group>";
+		};
+		DF689C4020886C1600A09E2E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		DF689C4120886C1600A09E2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DF689C4220886C1600A09E2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DF689C4320886C1600A09E2E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DFDAE80120888AD6004C0334 /* SXPMyViewController.h */,
+				DFDAE80220888AD6004C0334 /* SXPMyViewController.m */,
+				DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DF689C4420886C1600A09E2E /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DF689C4520886C1600A09E2E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C4620886C1600A09E2E /* Tools */,
+				DF689C4720886C1600A09E2E /* Category */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DF689C4620886C1600A09E2E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C502088778D00A09E2E /* SunXp_Inke.pch */,
+				DFDAE7F52088817B004C0334 /* SXPMacros.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DF689C4720886C1600A09E2E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DF689C4820886C1600A09E2E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DF689C4E20886D4800A09E2E /* SXPBaseViewController.h */,
+				DF689C4D20886D4800A09E2E /* SXPBaseViewController.m */,
+				DFDAE80620888BB5004C0334 /* SXPBaseNavigationViewController.h */,
+				DFDAE80720888BB5004C0334 /* SXPBaseNavigationViewController.m */,
+				DFDAE7F6208882D3004C0334 /* SXPTabBarViewController.h */,
+				DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */,
+				DFDAE7F9208882F3004C0334 /* SXPTabBar.h */,
+				DFDAE7FA208882F3004C0334 /* SXPTabBar.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DF689C4920886C8F00A09E2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				DF606D5D2081D5D0005F450B /* Assets.xcassets */,
 				DF606D5F2081D5D0005F450B /* LaunchScreen.storyboard */,
 				DF606D622081D5D0005F450B /* Info.plist */,
 				DF606D632081D5D0005F450B /* main.m */,
 			);
-			path = SunXp_Inke;
-			sourceTree = "<group>";
-		};
-		DF606D6C2081D5D0005F450B /* SunXp_InkeTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF606D6D2081D5D0005F450B /* SunXp_InkeTests.m */,
-				DF606D6F2081D5D0005F450B /* Info.plist */,
-			);
-			path = SunXp_InkeTests;
-			sourceTree = "<group>";
-		};
-		DF606D772081D5D0005F450B /* SunXp_InkeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DF606D782081D5D0005F450B /* SunXp_InkeUITests.m */,
-				DF606D7A2081D5D0005F450B /* Info.plist */,
-			);
-			path = SunXp_InkeUITests;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +449,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF606D7D2081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_Inke" */;
 			buildPhases = (
+				1624CEDEB1246B144586B1C4 /* [CP] Check Pods Manifest.lock */,
 				DF606D532081D5CE005F450B /* Sources */,
 				DF606D542081D5CE005F450B /* Frameworks */,
 				DF606D552081D5CE005F450B /* Resources */,
@@ -153,6 +467,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF606D802081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeTests" */;
 			buildPhases = (
+				E9E2CBBF333C2DA05CA0EF01 /* [CP] Check Pods Manifest.lock */,
 				DF606D652081D5D0005F450B /* Sources */,
 				DF606D662081D5D0005F450B /* Frameworks */,
 				DF606D672081D5D0005F450B /* Resources */,
@@ -171,6 +486,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF606D832081D5D0005F450B /* Build configuration list for PBXNativeTarget "SunXp_InkeUITests" */;
 			buildPhases = (
+				3691C1BFCF888D90E399320F /* [CP] Check Pods Manifest.lock */,
 				DF606D702081D5D0005F450B /* Sources */,
 				DF606D712081D5D0005F450B /* Frameworks */,
 				DF606D722081D5D0005F450B /* Resources */,
@@ -233,8 +549,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDAE80520888AD6004C0334 /* SXPMyViewController.xib in Resources */,
 				DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */,
+				DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */,
 				DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */,
+				DFDAE80020888A90004C0334 /* SXPMainViewController.xib in Resources */,
+				DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */,
+				DFB2078C2088BD3400910127 /* SXPHotViewController.xib in Resources */,
+				DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +576,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1624CEDEB1246B144586B1C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunXp_Inke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3691C1BFCF888D90E399320F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunXp_InkeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E2CBBF333C2DA05CA0EF01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunXp_InkeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF606D532081D5CE005F450B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFDAE80420888AD6004C0334 /* SXPMyViewController.m in Sources */,
+				DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */,
+				DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */,
+				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
+				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
+				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
+				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,
 				DF606D642081D5D0005F450B /* main.m in Sources */,
-				DF606D5C2081D5CE005F450B /* AppDelegate.m in Sources */,
-				DF606D882081D620005F450B /* SXPBaseViewController.m in Sources */,
+				DFDAE7F8208882D3004C0334 /* SXPTabBarViewController.m in Sources */,
+				DF689C4F20886D4800A09E2E /* SXPBaseViewController.m in Sources */,
+				DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */,
+				DFDAE7FF20888A90004C0334 /* SXPMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +657,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF606D6E2081D5D0005F450B /* SunXp_InkeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +664,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF606D792081D5D0005F450B /* SunXp_InkeUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,16 +806,20 @@
 		};
 		DF606D7E2081D5D0005F450B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA9B87BA48BC56145B86948D /* Pods-SunXp_Inke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Brand_Image;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
-				INFOPLIST_FILE = SunXp_Inke/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
+				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-Inke";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -437,16 +827,20 @@
 		};
 		DF606D7F2081D5D0005F450B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F364DEEAE41368CC5151D13F /* Pods-SunXp_Inke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Brand_Image;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
-				INFOPLIST_FILE = SunXp_Inke/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
+				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-Inke";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +848,7 @@
 		};
 		DF606D812081D5D0005F450B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA6B12C00A8B700187965A37 /* Pods-SunXp_InkeTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -473,6 +868,7 @@
 		};
 		DF606D822081D5D0005F450B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CCA68263F83EFD94AD3E90 /* Pods-SunXp_InkeTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +888,7 @@
 		};
 		DF606D842081D5D0005F450B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242CDAA72F1A0E85D0A0769C /* Pods-SunXp_InkeUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
@@ -510,6 +907,7 @@
 		};
 		DF606D852081D5D0005F450B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1260CDC0EEBB3E3392E232E7 /* Pods-SunXp_InkeUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;

@@ -2,7 +2,7 @@
 //  SXPBaseViewController.m
 //  SunXp_Inke
 //
-//  Created by SunXP on 2018/4/14.
+//  Created by SunXP on 2018/4/14./Users/sunxp/practice/SunXp_Inke
 //  Copyright © 2018年 SunXP. All rights reserved.
 //
 
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = RGB(arc4random_uniform(255.0), arc4random_uniform(255.0), arc4random_uniform(255.0));
 }
 
 - (void)didReceiveMemoryWarning {
