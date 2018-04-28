@@ -23,12 +23,28 @@
 		DF606D642081D5D0005F450B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF606D632081D5D0005F450B /* main.m */; };
 		DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF689C4B20886D3700A09E2E /* AppDelegate.m */; };
 		DF689C4F20886D4800A09E2E /* SXPBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF689C4D20886D4800A09E2E /* SXPBaseViewController.m */; };
+		DF6BAD322094418800D50A60 /* SXPShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD302094418800D50A60 /* SXPShowCell.m */; };
+		DF6BAD332094418800D50A60 /* SXPShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6BAD312094418800D50A60 /* SXPShowCell.xib */; };
+		DF6BAD352094603200D50A60 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD342094603200D50A60 /* IJKMediaFramework.framework */; };
+		DF6BAD372094605300D50A60 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD362094605300D50A60 /* AudioToolbox.framework */; };
+		DF6BAD392094606100D50A60 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD382094606000D50A60 /* AVFoundation.framework */; };
+		DF6BAD3B2094606800D50A60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD3A2094606700D50A60 /* CoreGraphics.framework */; };
+		DF6BAD3D2094607100D50A60 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD3C2094607100D50A60 /* CoreMedia.framework */; };
+		DF6BAD3F2094608C00D50A60 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD3E2094608C00D50A60 /* CoreVideo.framework */; };
+		DF6BAD412094609E00D50A60 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD402094609E00D50A60 /* libbz2.tbd */; };
+		DF6BAD43209460AC00D50A60 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD42209460AC00D50A60 /* MediaPlayer.framework */; };
+		DF6BAD45209460C100D50A60 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD44209460C100D50A60 /* MobileCoreServices.framework */; };
+		DF6BAD47209460CD00D50A60 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD46209460CC00D50A60 /* OpenGLES.framework */; };
+		DF6BAD49209460DB00D50A60 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD48209460DA00D50A60 /* QuartzCore.framework */; };
+		DF6BAD4B209460E700D50A60 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF6BAD4A209460E700D50A60 /* VideoToolbox.framework */; };
+		DF6BAD4E2094620200D50A60 /* SXPPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD4D2094620200D50A60 /* SXPPlayerViewController.m */; };
+		DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */; };
+		DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */; };
 		DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2077F2088B79700910127 /* SXPLaunchViewController.m */; };
 		DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207802088B79700910127 /* SXPLaunchViewController.xib */; };
 		DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207842088BD0A00910127 /* SXPFollowViewController.m */; };
 		DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207852088BD0A00910127 /* SXPFollowViewController.xib */; };
 		DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207892088BD3400910127 /* SXPHotViewController.m */; };
-		DFB2078C2088BD3400910127 /* SXPHotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB2078A2088BD3400910127 /* SXPHotViewController.xib */; };
 		DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2078E2088BD4B00910127 /* SXPNearViewController.m */; };
 		DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */; };
 		DFDAE7F8208882D3004C0334 /* SXPTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */; };
@@ -94,6 +110,26 @@
 		DF689C4D20886D4800A09E2E /* SXPBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXPBaseViewController.m; sourceTree = "<group>"; };
 		DF689C4E20886D4800A09E2E /* SXPBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXPBaseViewController.h; sourceTree = "<group>"; };
 		DF689C502088778D00A09E2E /* SunXp_Inke.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SunXp_Inke.pch; sourceTree = "<group>"; };
+		DF6BAD2F2094418800D50A60 /* SXPShowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPShowCell.h; sourceTree = "<group>"; };
+		DF6BAD302094418800D50A60 /* SXPShowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPShowCell.m; sourceTree = "<group>"; };
+		DF6BAD312094418800D50A60 /* SXPShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPShowCell.xib; sourceTree = "<group>"; };
+		DF6BAD342094603200D50A60 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		DF6BAD362094605300D50A60 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		DF6BAD382094606000D50A60 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF6BAD3A2094606700D50A60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF6BAD3C2094607100D50A60 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DF6BAD3E2094608C00D50A60 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DF6BAD402094609E00D50A60 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		DF6BAD42209460AC00D50A60 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DF6BAD44209460C100D50A60 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		DF6BAD46209460CC00D50A60 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DF6BAD48209460DA00D50A60 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF6BAD4A209460E700D50A60 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		DF6BAD4C2094620200D50A60 /* SXPPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPPlayerViewController.h; sourceTree = "<group>"; };
+		DF6BAD4D2094620200D50A60 /* SXPPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPPlayerViewController.m; sourceTree = "<group>"; };
+		DF6BAD552094728800D50A60 /* SXPLiveChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLiveChatViewController.h; sourceTree = "<group>"; };
+		DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLiveChatViewController.m; sourceTree = "<group>"; };
+		DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLiveChatViewController.xib; sourceTree = "<group>"; };
 		DFB2077E2088B79700910127 /* SXPLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLaunchViewController.h; sourceTree = "<group>"; };
 		DFB2077F2088B79700910127 /* SXPLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLaunchViewController.m; sourceTree = "<group>"; };
 		DFB207802088B79700910127 /* SXPLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLaunchViewController.xib; sourceTree = "<group>"; };
@@ -102,7 +138,6 @@
 		DFB207852088BD0A00910127 /* SXPFollowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPFollowViewController.xib; sourceTree = "<group>"; };
 		DFB207882088BD3400910127 /* SXPHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPHotViewController.h; sourceTree = "<group>"; };
 		DFB207892088BD3400910127 /* SXPHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPHotViewController.m; sourceTree = "<group>"; };
-		DFB2078A2088BD3400910127 /* SXPHotViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPHotViewController.xib; sourceTree = "<group>"; };
 		DFB2078D2088BD4B00910127 /* SXPNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPNearViewController.h; sourceTree = "<group>"; };
 		DFB2078E2088BD4B00910127 /* SXPNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPNearViewController.m; sourceTree = "<group>"; };
 		DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPNearViewController.xib; sourceTree = "<group>"; };
@@ -128,7 +163,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF6BAD4B209460E700D50A60 /* VideoToolbox.framework in Frameworks */,
+				DF6BAD49209460DB00D50A60 /* QuartzCore.framework in Frameworks */,
+				DF6BAD47209460CD00D50A60 /* OpenGLES.framework in Frameworks */,
+				DF6BAD45209460C100D50A60 /* MobileCoreServices.framework in Frameworks */,
+				DF6BAD43209460AC00D50A60 /* MediaPlayer.framework in Frameworks */,
+				DF6BAD412094609E00D50A60 /* libbz2.tbd in Frameworks */,
+				DF6BAD3F2094608C00D50A60 /* CoreVideo.framework in Frameworks */,
+				DF6BAD3D2094607100D50A60 /* CoreMedia.framework in Frameworks */,
+				DF6BAD3B2094606800D50A60 /* CoreGraphics.framework in Frameworks */,
+				DF6BAD392094606100D50A60 /* AVFoundation.framework in Frameworks */,
+				DF6BAD372094605300D50A60 /* AudioToolbox.framework in Frameworks */,
 				9F3D3B28D5336F669C2FA174 /* libPods-SunXp_Inke.a in Frameworks */,
+				DF6BAD352094603200D50A60 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +201,18 @@
 		56BB8CB44F65AED18B7A915E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF6BAD4A209460E700D50A60 /* VideoToolbox.framework */,
+				DF6BAD48209460DA00D50A60 /* QuartzCore.framework */,
+				DF6BAD46209460CC00D50A60 /* OpenGLES.framework */,
+				DF6BAD44209460C100D50A60 /* MobileCoreServices.framework */,
+				DF6BAD42209460AC00D50A60 /* MediaPlayer.framework */,
+				DF6BAD402094609E00D50A60 /* libbz2.tbd */,
+				DF6BAD3E2094608C00D50A60 /* CoreVideo.framework */,
+				DF6BAD3C2094607100D50A60 /* CoreMedia.framework */,
+				DF6BAD3A2094606700D50A60 /* CoreGraphics.framework */,
+				DF6BAD382094606000D50A60 /* AVFoundation.framework */,
+				DF6BAD362094605300D50A60 /* AudioToolbox.framework */,
+				DF6BAD342094603200D50A60 /* IJKMediaFramework.framework */,
 				DE0AAD3FDF6D2BBFB850AA47 /* libPods-SunXp_Inke.a */,
 				BE19D19CB70E5D2BF3270638 /* libPods-SunXp_InkeTests.a */,
 				5AA4DFA0B38017C5D37296E1 /* libPods-SunXp_InkeUITests.a */,
@@ -294,6 +353,9 @@
 			children = (
 				DF57ECAB2089CA4500A3461A /* SXPMainTopView.h */,
 				DF57ECAC2089CA4500A3461A /* SXPMainTopView.m */,
+				DF6BAD2F2094418800D50A60 /* SXPShowCell.h */,
+				DF6BAD302094418800D50A60 /* SXPShowCell.m */,
+				DF6BAD312094418800D50A60 /* SXPShowCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -309,10 +371,14 @@
 				DFB207852088BD0A00910127 /* SXPFollowViewController.xib */,
 				DFB207882088BD3400910127 /* SXPHotViewController.h */,
 				DFB207892088BD3400910127 /* SXPHotViewController.m */,
-				DFB2078A2088BD3400910127 /* SXPHotViewController.xib */,
 				DFB2078D2088BD4B00910127 /* SXPNearViewController.h */,
 				DFB2078E2088BD4B00910127 /* SXPNearViewController.m */,
 				DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */,
+				DF6BAD4C2094620200D50A60 /* SXPPlayerViewController.h */,
+				DF6BAD4D2094620200D50A60 /* SXPPlayerViewController.m */,
+				DF6BAD552094728800D50A60 /* SXPLiveChatViewController.h */,
+				DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */,
+				DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -597,7 +663,8 @@
 				DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */,
 				DFDAE80020888A90004C0334 /* SXPMainViewController.xib in Resources */,
 				DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */,
-				DFB2078C2088BD3400910127 /* SXPHotViewController.xib in Resources */,
+				DF6BAD332094418800D50A60 /* SXPShowCell.xib in Resources */,
+				DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */,
 				DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -685,9 +752,12 @@
 				DF57ECC22089E68A00A3461A /* SXPCreator.m in Sources */,
 				DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */,
 				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
+				DF6BAD4E2094620200D50A60 /* SXPPlayerViewController.m in Sources */,
+				DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */,
 				DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */,
 				DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */,
 				DF57ECBF2089E64F00A3461A /* SXPShow.m in Sources */,
+				DF6BAD322094418800D50A60 /* SXPShowCell.m in Sources */,
 				DF47E7D22089EC5E00B116B7 /* MJExtensionConfig.m in Sources */,
 				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
 				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
@@ -862,6 +932,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Brand_Image;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -883,6 +957,10 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = Brand_Image;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SXPLiveChatViewController">
+            <connections>
+                <outlet property="iconView" destination="jyP-G9-PVY" id="8nT-KW-Gid"/>
+                <outlet property="peopleCountL" destination="ZVw-LR-Pfn" id="ZZT-Nq-14L"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R6d-X4-5JH">
+                    <rect key="frame" x="0.0" y="607" width="375" height="60"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_liao_h" translatesAutoresizingMaskIntoConstraints="NO" id="C4t-vw-ngT">
+                            <rect key="frame" x="10" y="10" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_xinxi_h" translatesAutoresizingMaskIntoConstraints="NO" id="s15-s2-H92">
+                            <rect key="frame" x="175" y="10" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_liwu_h" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-fq-j5c">
+                            <rect key="frame" x="225" y="10" width="40" height="40"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_fenxiang_h" translatesAutoresizingMaskIntoConstraints="NO" id="4km-SG-UGM">
+                            <rect key="frame" x="275" y="10.5" width="40" height="40"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="hJl-fq-j5c" firstAttribute="leading" secondItem="s15-s2-H92" secondAttribute="trailing" constant="10" id="2tN-IJ-ihX"/>
+                        <constraint firstItem="4km-SG-UGM" firstAttribute="centerY" secondItem="C4t-vw-ngT" secondAttribute="centerY" id="DP9-AM-Bzm"/>
+                        <constraint firstItem="s15-s2-H92" firstAttribute="centerY" secondItem="C4t-vw-ngT" secondAttribute="centerY" id="Fuh-kG-gk0"/>
+                        <constraint firstItem="4km-SG-UGM" firstAttribute="leading" secondItem="hJl-fq-j5c" secondAttribute="trailing" constant="10" id="SzB-3f-vMB"/>
+                        <constraint firstItem="C4t-vw-ngT" firstAttribute="leading" secondItem="R6d-X4-5JH" secondAttribute="leading" constant="10" id="Tbu-01-aUQ"/>
+                        <constraint firstAttribute="height" constant="60" id="XeQ-vM-7wS"/>
+                        <constraint firstItem="hJl-fq-j5c" firstAttribute="centerY" secondItem="C4t-vw-ngT" secondAttribute="centerY" id="YtP-gO-gWn"/>
+                        <constraint firstAttribute="trailing" secondItem="4km-SG-UGM" secondAttribute="trailing" constant="60" id="bwf-tJ-kmh"/>
+                        <constraint firstAttribute="bottom" secondItem="C4t-vw-ngT" secondAttribute="bottom" constant="10" id="sWi-Bi-wRC"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_touxiang" translatesAutoresizingMaskIntoConstraints="NO" id="fOf-Wu-c70">
+                    <rect key="frame" x="10" y="30" width="87" height="32"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jyP-G9-PVY">
+                    <rect key="frame" x="11" y="31" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="WdI-wh-igh"/>
+                        <constraint firstAttribute="height" constant="30" id="ixE-C3-mFp"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZVw-LR-Pfn">
+                    <rect key="frame" x="43" y="48" width="35" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="GYA-Q0-f75"/>
+                        <constraint firstAttribute="width" constant="35" id="b9s-hk-ful"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KAz-u7-vzf">
+                    <rect key="frame" x="0.0" y="72" width="100" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="7ba-Q6-lWR"/>
+                        <constraint firstAttribute="height" constant="20" id="HHh-H0-8co"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="映票 0" backgroundImage="mg_room_映票_底">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jyP-G9-PVY" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="11" id="AYq-As-vUL"/>
+                <constraint firstItem="ZVw-LR-Pfn" firstAttribute="leading" secondItem="jyP-G9-PVY" secondAttribute="trailing" constant="2" id="ECH-cg-1tO"/>
+                <constraint firstItem="R6d-X4-5JH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="M2h-iq-6TS"/>
+                <constraint firstAttribute="trailing" secondItem="R6d-X4-5JH" secondAttribute="trailing" id="NKC-gP-PSm"/>
+                <constraint firstItem="ZVw-LR-Pfn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="48" id="S29-yf-jIB"/>
+                <constraint firstItem="R6d-X4-5JH" firstAttribute="bottom" secondItem="i5M-Pr-FkT" secondAttribute="bottom" id="e38-UE-3Fb"/>
+                <constraint firstItem="jyP-G9-PVY" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="31" id="hm7-6i-kBF"/>
+                <constraint firstItem="KAz-u7-vzf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="j3W-tX-AlR"/>
+                <constraint firstItem="fOf-Wu-c70" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="lKA-XI-hTM"/>
+                <constraint firstItem="fOf-Wu-c70" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="unW-3Z-MRo"/>
+                <constraint firstItem="KAz-u7-vzf" firstAttribute="top" secondItem="fOf-Wu-c70" secondAttribute="bottom" constant="10" id="vEw-nP-2AM"/>
+            </constraints>
+            <point key="canvasLocation" x="51.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="mg_room_btn_fenxiang_h" width="40" height="40"/>
+        <image name="mg_room_btn_liao_h" width="40" height="40"/>
+        <image name="mg_room_btn_liwu_h" width="40" height="40"/>
+        <image name="mg_room_btn_xinxi_h" width="40" height="40"/>
+        <image name="mg_room_touxiang" width="87" height="32"/>
+        <image name="mg_room_映票_底" width="138" height="22"/>
+    </resources>
+</document>

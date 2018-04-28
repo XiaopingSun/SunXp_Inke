@@ -8,10 +8,16 @@
 
 #import "SXPHotViewController.h"
 #import "SXPShowHandler.h"
+#import "SXPShowCell.h"
+#import "SXPPlayerViewController.h"
 
-@interface SXPHotViewController ()
+static NSString *identifier = @"SXPShowCell";
+
+@interface SXPHotViewController () <UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSMutableArray *dataListArray;
+
+@property (nonatomic, strong) UITableView *tableView;
 
 @end
 
@@ -26,7 +32,7 @@
 
 - (void)initUI {
     
-    
+    [self.tableView registerNib:[UINib nibWithNibName:@"SXPShowCell" bundle:nil] forCellReuseIdentifier:identifier];
 }
 
 - (void)loadData {
@@ -39,25 +45,30 @@
     }];
 }
 
-//- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//
-//    return self.dataListArray.count;
-//}
-//
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-//
-//    
-//}
-//
-//- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//
-//    
-//}
-//
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//
-//    
-//}
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return self.dataListArray.count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    return 70 + SCREEN_WIDTH;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    SXPShowCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier forIndexPath:indexPath];
+    cell.show = self.dataListArray[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    SXPShow *show = self.dataListArray[indexPath.row];
+    SXPPlayerViewController *playerVC = [[SXPPlayerViewController alloc] init];
+    playerVC.show = show;
+    [self.navigationController pushViewController:playerVC animated:YES];
+}
 
 - (NSMutableArray *)dataListArray {
     
@@ -65,6 +76,17 @@
         _dataListArray = [NSMutableArray array];
     }
     return _dataListArray;
+}
+
+- (UITableView *)tableView {
+    
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT - HEIGHT_STATUS_BAR - HEIGHT_NAVI_BAR - HEIGHT_TABBAR) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [self.view addSubview:_tableView];
+    }
+    return _tableView;
 }
 
 - (void)didReceiveMemoryWarning {

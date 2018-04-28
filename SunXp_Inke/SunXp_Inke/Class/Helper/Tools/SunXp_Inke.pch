@@ -21,4 +21,6 @@
 #import "SXPMacros.h"
 #import "APIConfig.h"
 
+#import "UIImageView+SDWebImage.h"
+
 #endif /* SunXp_Inke_pch */

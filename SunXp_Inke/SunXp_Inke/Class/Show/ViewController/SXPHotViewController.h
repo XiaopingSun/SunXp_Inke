@@ -8,6 +8,6 @@
 
 #import "SXPBaseViewController.h"
 
-@interface SXPHotViewController : UITableViewController
+@interface SXPHotViewController : SXPBaseViewController
 
 @end
