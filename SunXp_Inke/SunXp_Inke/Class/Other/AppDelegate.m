@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "SXPTabBarViewController.h"
+#import "SXPLocationManager.h"
+#import "SXPAdvertiseView.h"
 
 @interface AppDelegate ()
 
@@ -24,6 +26,12 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[SXPLocationManager sharedManager] getGps:nil];
+    
+    SXPAdvertiseView *adView = [SXPAdvertiseView loadAdvertiseView];
+    [self.window addSubview:adView];
+    
     return YES;
 }
 

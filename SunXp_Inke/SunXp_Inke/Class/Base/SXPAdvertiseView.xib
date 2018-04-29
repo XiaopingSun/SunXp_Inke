@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SXPAdvertiseView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KPT-dI-9q4">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXj-MM-Yyb">
+                    <rect key="frame" x="289" y="40" width="66" height="20"/>
+                    <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="6ff-w2-1NT"/>
+                        <constraint firstAttribute="width" constant="66" id="lGH-HV-UQd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rXj-MM-Yyb" secondAttribute="trailing" constant="20" id="GdB-uL-HgN"/>
+                <constraint firstAttribute="bottom" secondItem="KPT-dI-9q4" secondAttribute="bottom" id="JVy-g2-uvn"/>
+                <constraint firstItem="rXj-MM-Yyb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="S9M-Iv-BBB"/>
+                <constraint firstItem="KPT-dI-9q4" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dNy-bs-Hj9"/>
+                <constraint firstItem="KPT-dI-9q4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eXB-07-2ai"/>
+                <constraint firstAttribute="trailing" secondItem="KPT-dI-9q4" secondAttribute="trailing" id="uiS-Na-W6p"/>
+            </constraints>
+            <connections>
+                <outlet property="AdImageView" destination="KPT-dI-9q4" id="bgE-Qb-uSg"/>
+                <outlet property="timeLabel" destination="rXj-MM-Yyb" id="ozy-K3-1Ud"/>
+            </connections>
+        </view>
+    </objects>
+</document>

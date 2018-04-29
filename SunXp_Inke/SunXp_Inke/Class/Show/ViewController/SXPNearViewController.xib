@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SXPNearViewController">
             <connections>
+                <outlet property="collectionView" destination="LTK-mH-77t" id="DGj-Gs-rNU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,7 +19,30 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="LTK-mH-77t">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="558"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="nCX-uV-zML">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="WaX-It-gNJ"/>
+                        <outlet property="delegate" destination="-1" id="wvB-V5-Ofs"/>
+                    </connections>
+                </collectionView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="LTK-mH-77t" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="69S-mf-doN"/>
+                <constraint firstAttribute="trailing" secondItem="LTK-mH-77t" secondAttribute="trailing" id="O86-Lh-Xxw"/>
+                <constraint firstItem="LTK-mH-77t" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="odH-Xq-t9K"/>
+                <constraint firstAttribute="bottom" secondItem="LTK-mH-77t" secondAttribute="bottom" constant="109" id="oli-LZ-m9I"/>
+            </constraints>
+            <point key="canvasLocation" x="51.5" y="108.5"/>
         </view>
     </objects>
 </document>

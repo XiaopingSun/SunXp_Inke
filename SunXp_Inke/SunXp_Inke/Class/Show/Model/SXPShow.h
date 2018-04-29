@@ -34,4 +34,6 @@
 @property (nonatomic, assign) NSInteger status;
 @property (nonatomic, strong) NSString * streamAddr;
 @property (nonatomic, assign) NSInteger version;
+@property (nonatomic, copy) NSString *distance;
+@property (nonatomic, assign, getter=isDisplayed) BOOL displayed;
 @end

@@ -54,6 +54,12 @@
 		DFDAE80420888AD6004C0334 /* SXPMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE80220888AD6004C0334 /* SXPMyViewController.m */; };
 		DFDAE80520888AD6004C0334 /* SXPMyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */; };
 		DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDAE80720888BB5004C0334 /* SXPBaseNavigationViewController.m */; };
+		DFE66BA42095855800120B3C /* SXPLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BA32095855800120B3C /* SXPLocationManager.m */; };
+		DFE66BA82095905A00120B3C /* SXPNearLiveCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BA62095905A00120B3C /* SXPNearLiveCell.m */; };
+		DFE66BA92095905A00120B3C /* SXPNearLiveCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE66BA72095905A00120B3C /* SXPNearLiveCell.xib */; };
+		DFE66BAC2095A98B00120B3C /* SXPAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BAB2095A98B00120B3C /* SXPAdvertiseView.m */; };
+		DFE66BAE2095A99A00120B3C /* SXPAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */; };
+		DFE66BB12095AF6300120B3C /* SXPCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BB02095AF6300120B3C /* SXPCacheHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +160,16 @@
 		DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPMyViewController.xib; sourceTree = "<group>"; };
 		DFDAE80620888BB5004C0334 /* SXPBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPBaseNavigationViewController.h; sourceTree = "<group>"; };
 		DFDAE80720888BB5004C0334 /* SXPBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPBaseNavigationViewController.m; sourceTree = "<group>"; };
+		DFE66BA22095855800120B3C /* SXPLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLocationManager.h; sourceTree = "<group>"; };
+		DFE66BA32095855800120B3C /* SXPLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLocationManager.m; sourceTree = "<group>"; };
+		DFE66BA52095905A00120B3C /* SXPNearLiveCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPNearLiveCell.h; sourceTree = "<group>"; };
+		DFE66BA62095905A00120B3C /* SXPNearLiveCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPNearLiveCell.m; sourceTree = "<group>"; };
+		DFE66BA72095905A00120B3C /* SXPNearLiveCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPNearLiveCell.xib; sourceTree = "<group>"; };
+		DFE66BAA2095A98B00120B3C /* SXPAdvertiseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPAdvertiseView.h; sourceTree = "<group>"; };
+		DFE66BAB2095A98B00120B3C /* SXPAdvertiseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPAdvertiseView.m; sourceTree = "<group>"; };
+		DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPAdvertiseView.xib; sourceTree = "<group>"; };
+		DFE66BAF2095AF6300120B3C /* SXPCacheHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPCacheHelper.h; sourceTree = "<group>"; };
+		DFE66BB02095AF6300120B3C /* SXPCacheHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPCacheHelper.m; sourceTree = "<group>"; };
 		EA9B87BA48BC56145B86948D /* Pods-SunXp_Inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.debug.xcconfig"; sourceTree = "<group>"; };
 		F364DEEAE41368CC5151D13F /* Pods-SunXp_Inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -356,6 +372,9 @@
 				DF6BAD2F2094418800D50A60 /* SXPShowCell.h */,
 				DF6BAD302094418800D50A60 /* SXPShowCell.m */,
 				DF6BAD312094418800D50A60 /* SXPShowCell.xib */,
+				DFE66BA52095905A00120B3C /* SXPNearLiveCell.h */,
+				DFE66BA62095905A00120B3C /* SXPNearLiveCell.m */,
+				DFE66BA72095905A00120B3C /* SXPNearLiveCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -511,6 +530,10 @@
 				DFDAE7F52088817B004C0334 /* SXPMacros.h */,
 				DF47E7D02089EC5E00B116B7 /* MJExtensionConfig.h */,
 				DF47E7D12089EC5E00B116B7 /* MJExtensionConfig.m */,
+				DFE66BA22095855800120B3C /* SXPLocationManager.h */,
+				DFE66BA32095855800120B3C /* SXPLocationManager.m */,
+				DFE66BAF2095AF6300120B3C /* SXPCacheHelper.h */,
+				DFE66BB02095AF6300120B3C /* SXPCacheHelper.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -535,6 +558,9 @@
 				DFDAE7FA208882F3004C0334 /* SXPTabBar.m */,
 				DF57ECB72089E04100A3461A /* SXPBaseHandler.h */,
 				DF57ECB82089E04100A3461A /* SXPBaseHandler.m */,
+				DFE66BAA2095A98B00120B3C /* SXPAdvertiseView.h */,
+				DFE66BAB2095A98B00120B3C /* SXPAdvertiseView.m */,
+				DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -660,9 +686,11 @@
 				DFDAE80520888AD6004C0334 /* SXPMyViewController.xib in Resources */,
 				DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */,
 				DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */,
+				DFE66BA92095905A00120B3C /* SXPNearLiveCell.xib in Resources */,
 				DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */,
 				DFDAE80020888A90004C0334 /* SXPMainViewController.xib in Resources */,
 				DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */,
+				DFE66BAE2095A99A00120B3C /* SXPAdvertiseView.xib in Resources */,
 				DF6BAD332094418800D50A60 /* SXPShowCell.xib in Resources */,
 				DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */,
 				DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */,
@@ -749,6 +777,7 @@
 			files = (
 				DFDAE80420888AD6004C0334 /* SXPMyViewController.m in Sources */,
 				DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */,
+				DFE66BA82095905A00120B3C /* SXPNearLiveCell.m in Sources */,
 				DF57ECC22089E68A00A3461A /* SXPCreator.m in Sources */,
 				DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */,
 				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
@@ -761,8 +790,11 @@
 				DF47E7D22089EC5E00B116B7 /* MJExtensionConfig.m in Sources */,
 				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
 				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
+				DFE66BA42095855800120B3C /* SXPLocationManager.m in Sources */,
 				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,
 				DF606D642081D5D0005F450B /* main.m in Sources */,
+				DFE66BAC2095A98B00120B3C /* SXPAdvertiseView.m in Sources */,
+				DFE66BB12095AF6300120B3C /* SXPCacheHelper.m in Sources */,
 				DFDAE7F8208882D3004C0334 /* SXPTabBarViewController.m in Sources */,
 				DF689C4F20886D4800A09E2E /* SXPBaseViewController.m in Sources */,
 				DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */,

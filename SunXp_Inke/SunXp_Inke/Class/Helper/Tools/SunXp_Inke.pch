@@ -17,6 +17,7 @@
 #import "YYKit.h"
 #import "UIImageView+WebCache.h"
 #import "MJExtension.h"
+#import "SDWebImageManager.h"
 
 #import "SXPMacros.h"
 #import "APIConfig.h"

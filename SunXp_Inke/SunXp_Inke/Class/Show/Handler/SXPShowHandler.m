@@ -9,6 +9,7 @@
 #import "SXPShowHandler.h"
 #import "HttpTool.h"
 #import "SXPShow.h"
+#import "SXPLocationManager.h"
 
 @implementation SXPShowHandler
 
@@ -26,6 +27,30 @@
     } failure:^(NSError *error) {
         
         failed(error);
+        
+    }];
+}
+
++ (void)httpGetNearbyInfoWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed {
+    
+    NSString *urlStr = [NSString stringWithFormat:@"%@?uid=88886666&latitude=%@&longitude=%@", API_NearLocation, [SXPLocationManager sharedManager].latitude, [SXPLocationManager sharedManager].longtitude];
+    [HttpTool getWithPath:urlStr params:nil success:^(id json) {
+        
+        NSArray *liveList = [SXPShow mj_objectArrayWithKeyValuesArray:json[@"lives"]];
+        success(liveList);
+        
+    } failure:^(NSError *error) {
+        
+        failed(error);
+        
+    }];
+}
+
++ (void)httpsGetAdImageInfoWithSuccess:(SuccessBlock)success failed:(FailedBlock)failed {
+    
+    [HttpTool getWithUrlStr:API_Advertise params:nil success:^(id json) {
+        
+    } failure:^(NSError *error) {
         
     }];
 }

@@ -43,6 +43,23 @@ static NSString * kBaseUrl = SERVER_HOST;
 
 @implementation HttpTool
 
++ (void)getWithUrlStr:(NSString *)urlStr
+             params:(NSDictionary *)params
+            success:(HttpSuccessBlock)success
+            failure:(HttpFailureBlock)failure {
+    
+    [[AFHttpClient sharedClient] GET:urlStr parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        
+        success(responseObject);
+        
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        
+        failure(error);
+        
+    }];
+    
+}
+
 + (void)getWithPath:(NSString *)path
              params:(NSDictionary *)params
             success:(HttpSuccessBlock)success

@@ -17,6 +17,11 @@ typedef void (^HttpUploadProgressBlock)(CGFloat progress);
 
 @interface HttpTool : NSObject
 
++ (void)getWithUrlStr:(NSString *)urlStr
+               params:(NSDictionary *)params
+              success:(HttpSuccessBlock)success
+              failure:(HttpFailureBlock)failure;
+
 /**
  *  get网络请求
  *

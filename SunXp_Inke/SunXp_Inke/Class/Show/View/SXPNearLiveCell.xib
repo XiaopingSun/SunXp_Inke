@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SXPNearLiveCell">
+            <rect key="frame" x="0.0" y="0.0" width="137" height="157"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="137" height="157"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="EHR-tN-wRD">
+                        <rect key="frame" x="0.0" y="0.0" width="137" height="137"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="EHR-tN-wRD" secondAttribute="height" id="HV5-pz-wgY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzV-EZ-hAS">
+                        <rect key="frame" x="0.0" y="137" width="137" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="jHq-Ll-2Pa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="EHR-tN-wRD" secondAttribute="trailing" id="3l6-V9-vaJ"/>
+                <constraint firstItem="EHR-tN-wRD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="7GT-lK-FhQ"/>
+                <constraint firstAttribute="trailing" secondItem="uzV-EZ-hAS" secondAttribute="trailing" id="I9W-sh-L7m"/>
+                <constraint firstItem="EHR-tN-wRD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JZe-1w-w0t"/>
+                <constraint firstItem="uzV-EZ-hAS" firstAttribute="top" secondItem="EHR-tN-wRD" secondAttribute="bottom" id="KMy-4X-toQ"/>
+                <constraint firstItem="uzV-EZ-hAS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="N8R-2t-4xN"/>
+            </constraints>
+            <size key="customSize" width="137" height="157"/>
+            <connections>
+                <outlet property="distanceLabel" destination="uzV-EZ-hAS" id="BfJ-dR-aXP"/>
+                <outlet property="portraitImageView" destination="EHR-tN-wRD" id="HoA-WO-wKu"/>
+            </connections>
+            <point key="canvasLocation" x="-26.5" y="69.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
