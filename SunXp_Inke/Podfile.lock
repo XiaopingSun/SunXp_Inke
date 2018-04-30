@@ -14,9 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.2.0)
   - AFNetworking/UIKit (3.2.0):
     - AFNetworking/NSURLSession
-  - LFLiveKit (2.6)
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - LFLiveKit (1.6):
+    - CocoaAsyncSocket (~> 7.4.1)
+    - LMGPUImage (~> 0.1.9)
+    - pili-librtmp (~> 1.0.2)
+  - LMGPUImage (0.1.9)
   - Masonry (1.1.0)
   - MJExtension (3.0.13)
+  - pili-librtmp (1.0.3)
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
@@ -26,29 +38,38 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.0)
-  - LFLiveKit (~> 2.6)
+  - CocoaAsyncSocket (= 7.4.3)
+  - LFLiveKit (= 1.6)
+  - LMGPUImage (= 0.1.9)
   - Masonry (~> 1.1.0)
   - MJExtension (~> 3.0.13)
+  - pili-librtmp (= 1.0.3)
   - SDWebImage (~> 4.3.3)
   - YYKit (~> 1.0.9)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - CocoaAsyncSocket
     - LFLiveKit
+    - LMGPUImage
     - Masonry
     - MJExtension
+    - pili-librtmp
     - SDWebImage
     - YYKit
 
 SPEC CHECKSUMS:
   AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
-  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  LFLiveKit: a8a868f23d32f57fb0195a3cdc9e5899a1c0945e
+  LMGPUImage: 8e2e5d0f7065953eb7812de842db4c87d59abf09
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  pili-librtmp: 50faa17413c635cca5ceccb1a8f9f6acc6587a45
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: f0dde87a137df282c482cc1f4874bddfb451b3a5
+PODFILE CHECKSUM: 7dbc5fd650c2f882c3f68d2e48e21ca354805f3a
 
 COCOAPODS: 1.5.0

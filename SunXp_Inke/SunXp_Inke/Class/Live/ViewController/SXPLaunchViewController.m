@@ -7,6 +7,7 @@
 //
 
 #import "SXPLaunchViewController.h"
+#import "LFLivePreview.h"
 
 @interface SXPLaunchViewController ()
 
@@ -18,9 +19,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }
+ 
 - (IBAction)closeLaunch:(UIButton *)sender {
     
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)startLive:(UIButton *)sender {
+    
+    UIView * bgView = [[UIView alloc] initWithFrame:self.view.bounds];
+    bgView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:bgView];
+    
+    LFLivePreview *preview = [[LFLivePreview alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:preview];
+    [preview startLive];
 }
 
 - (void)didReceiveMemoryWarning {

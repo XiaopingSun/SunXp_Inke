@@ -89,10 +89,10 @@ static NSUInteger showTime = 3;
                 [self dismiss];
             });
         } else {
+            time--;
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.timeLabel.text = [NSString stringWithFormat:@"跳过 %zd", time];
             });
-            time--;
         }
     });
     self.timer = timer;

@@ -1,1 +1,1 @@
-../../../LFLiveKit/LFLiveKit/Vendor/pili-librtmp/amf.h
+../../../LFLiveKit/LFLiveKit/packet/flv/amf.h

@@ -40,6 +40,7 @@
 		DF6BAD4E2094620200D50A60 /* SXPPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD4D2094620200D50A60 /* SXPPlayerViewController.m */; };
 		DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */; };
 		DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */; };
+		DF94075E2096FB5E0011A268 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = DF94075D2096FB5D0011A268 /* LFLivePreview.m */; };
 		DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2077F2088B79700910127 /* SXPLaunchViewController.m */; };
 		DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207802088B79700910127 /* SXPLaunchViewController.xib */; };
 		DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207842088BD0A00910127 /* SXPFollowViewController.m */; };
@@ -136,6 +137,8 @@
 		DF6BAD552094728800D50A60 /* SXPLiveChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLiveChatViewController.h; sourceTree = "<group>"; };
 		DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLiveChatViewController.m; sourceTree = "<group>"; };
 		DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLiveChatViewController.xib; sourceTree = "<group>"; };
+		DF94075C2096FB5D0011A268 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
+		DF94075D2096FB5D0011A268 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
 		DFB2077E2088B79700910127 /* SXPLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLaunchViewController.h; sourceTree = "<group>"; };
 		DFB2077F2088B79700910127 /* SXPLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLaunchViewController.m; sourceTree = "<group>"; };
 		DFB207802088B79700910127 /* SXPLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLaunchViewController.xib; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 		DFB2078D2088BD4B00910127 /* SXPNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPNearViewController.h; sourceTree = "<group>"; };
 		DFB2078E2088BD4B00910127 /* SXPNearViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPNearViewController.m; sourceTree = "<group>"; };
 		DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPNearViewController.xib; sourceTree = "<group>"; };
+		DFCBF31D20971DF4007289C8 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DFCBF31F20971E02007289C8 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
 		DFDAE7F52088817B004C0334 /* SXPMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMacros.h; sourceTree = "<group>"; };
 		DFDAE7F6208882D3004C0334 /* SXPTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPTabBarViewController.h; sourceTree = "<group>"; };
 		DFDAE7F7208882D3004C0334 /* SXPTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPTabBarViewController.m; sourceTree = "<group>"; };
@@ -217,6 +222,8 @@
 		56BB8CB44F65AED18B7A915E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DFCBF31F20971E02007289C8 /* libstdc++.tbd */,
+				DFCBF31D20971DF4007289C8 /* libz.tbd */,
 				DF6BAD4A209460E700D50A60 /* VideoToolbox.framework */,
 				DF6BAD48209460DA00D50A60 /* QuartzCore.framework */,
 				DF6BAD46209460CC00D50A60 /* OpenGLES.framework */,
@@ -411,6 +418,8 @@
 		DF689C3D20886C1600A09E2E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF94075C2096FB5D0011A268 /* LFLivePreview.h */,
+				DF94075D2096FB5D0011A268 /* LFLivePreview.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -547,6 +556,7 @@
 				DF606D532081D5CE005F450B /* Sources */,
 				DF606D542081D5CE005F450B /* Frameworks */,
 				DF606D552081D5CE005F450B /* Resources */,
+				0E1ABA3CDA783016494131E9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -674,6 +684,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E1ABA3CDA783016494131E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke-resources.sh",
+				"${PODS_ROOT}/LMGPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/LMGPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/LMGPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/LMGPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/LMGPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1624CEDEB1246B144586B1C4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -753,6 +789,7 @@
 				DFE66BA42095855800120B3C /* SXPLocationManager.m in Sources */,
 				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,
 				DF606D642081D5D0005F450B /* main.m in Sources */,
+				DF94075E2096FB5E0011A268 /* LFLivePreview.m in Sources */,
 				DFE66BAC2095A98B00120B3C /* SXPAdvertiseView.m in Sources */,
 				DFE66BB12095AF6300120B3C /* SXPCacheHelper.m in Sources */,
 				DFDAE7F8208882D3004C0334 /* SXPTabBarViewController.m in Sources */,
@@ -931,10 +968,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -956,10 +990,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -974,11 +1005,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -994,11 +1021,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1013,11 +1036,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1032,11 +1051,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

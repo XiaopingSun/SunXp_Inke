@@ -22,6 +22,8 @@ target 'SunXp_Inke' do
   pod 'Masonry', '~> 1.1.0'
   pod 'YYKit', '~> 1.0.9'
   pod 'MJExtension', '~> 3.0.13'
-  pod 'LFLiveKit', '~> 2.6'
-
+  pod 'LFLiveKit', '1.6'
+  pod 'CocoaAsyncSocket', '7.4.3'
+  pod 'LMGPUImage', '0.1.9'
+  pod 'pili-librtmp', '1.0.3'
 end
