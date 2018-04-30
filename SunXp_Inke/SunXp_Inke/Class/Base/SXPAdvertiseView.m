@@ -84,6 +84,7 @@ static NSUInteger showTime = 3;
     dispatch_source_set_event_handler(timer, ^{
         
         if (time <= 1) {
+            dispatch_source_cancel(self.timer);
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self dismiss];
             });
@@ -103,6 +104,7 @@ static NSUInteger showTime = 3;
     [UIView animateWithDuration:0.5 animations:^{
         self.alpha = 0.f;
     } completion:^(BOOL finished) {
+        self.timer = nil;
         [self removeFromSuperview];
     }];
 }

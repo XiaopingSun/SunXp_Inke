@@ -29,24 +29,56 @@
                         <action selector="closeLaunch:" destination="-1" eventType="touchUpInside" id="ZgU-JX-jnD"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bde-Up-UCF">
+                    <rect key="frame" x="10" y="20" width="69" height="26"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="上海市" image="launch_map_on">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vT0-lH-gew">
+                    <rect key="frame" x="62" y="311" width="250" height="44"/>
+                    <state key="normal" title="开始直播" backgroundImage="room_button">
+                        <color key="titleColor" red="0.38823529410000002" green="0.87843137250000003" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="给直播起个标题吧" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UqJ-we-fD5">
+                    <rect key="frame" x="57.5" y="251" width="260" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="260" id="dqn-0F-LHN"/>
+                        <constraint firstAttribute="height" constant="30" id="egq-jO-xrh"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="caQ-PH-jSK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7fL-sr-BF4"/>
                 <constraint firstAttribute="trailing" secondItem="ega-q4-rBe" secondAttribute="trailing" id="AaL-Va-hIL"/>
                 <constraint firstAttribute="bottom" secondItem="caQ-PH-jSK" secondAttribute="bottom" id="Apa-uR-Fxb"/>
+                <constraint firstItem="vT0-lH-gew" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="BKP-PB-3Mi"/>
                 <constraint firstAttribute="trailing" secondItem="caQ-PH-jSK" secondAttribute="trailing" id="CDV-iB-j57"/>
                 <constraint firstItem="caQ-PH-jSK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HLa-gk-73W"/>
                 <constraint firstAttribute="trailing" secondItem="caQ-PH-jSK" secondAttribute="trailing" id="S6D-wC-fuF"/>
+                <constraint firstItem="bde-Up-UCF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="WoW-ri-m53"/>
+                <constraint firstItem="vT0-lH-gew" firstAttribute="top" secondItem="UqJ-we-fD5" secondAttribute="bottom" constant="30" id="XcL-hs-q49"/>
                 <constraint firstItem="ega-q4-rBe" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Xtq-YF-kf8"/>
+                <constraint firstItem="vT0-lH-gew" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="aoJ-Jf-xpK"/>
+                <constraint firstItem="vT0-lH-gew" firstAttribute="centerX" secondItem="UqJ-we-fD5" secondAttribute="centerX" id="hQC-QT-1uN"/>
                 <constraint firstItem="caQ-PH-jSK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jzP-mU-FxX"/>
+                <constraint firstItem="bde-Up-UCF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="kyn-0F-HlK"/>
                 <constraint firstAttribute="bottom" secondItem="caQ-PH-jSK" secondAttribute="bottom" id="w3q-Rk-uFc"/>
                 <constraint firstItem="caQ-PH-jSK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xpP-jM-DeQ"/>
             </constraints>
+            <point key="canvasLocation" x="51.5" y="53.5"/>
         </view>
     </objects>
     <resources>
         <image name="bg_zbfx" width="250" height="444"/>
         <image name="launch_close" width="64" height="64"/>
+        <image name="launch_map_on" width="26" height="26"/>
+        <image name="room_button" width="250" height="44"/>
     </resources>
 </document>

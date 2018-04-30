@@ -281,7 +281,6 @@
 		DF689C2D20886C1600A09E2E /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				DF689C2E20886C1600A09E2E /* Launch */,
 				DF689C3320886C1600A09E2E /* Show */,
 				DF689C3A20886C1600A09E2E /* Live */,
 				DF689C3F20886C1600A09E2E /* My */,
@@ -292,45 +291,6 @@
 				DF689C3920886C1600A09E2E /* Other */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		DF689C2E20886C1600A09E2E /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				DF689C2F20886C1600A09E2E /* Handler */,
-				DF689C3020886C1600A09E2E /* Model */,
-				DF689C3120886C1600A09E2E /* View */,
-				DF689C3220886C1600A09E2E /* ViewController */,
-			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
-		DF689C2F20886C1600A09E2E /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Handler;
-			sourceTree = "<group>";
-		};
-		DF689C3020886C1600A09E2E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		DF689C3120886C1600A09E2E /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		DF689C3220886C1600A09E2E /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewController;
 			sourceTree = "<group>";
 		};
 		DF689C3320886C1600A09E2E /* Show */ = {
