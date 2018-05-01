@@ -41,10 +41,22 @@
 		DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6BAD562094728800D50A60 /* SXPLiveChatViewController.m */; };
 		DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */; };
 		DF94075E2096FB5E0011A268 /* LFLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = DF94075D2096FB5D0011A268 /* LFLivePreview.m */; };
+		DF950BA720986208005B4335 /* SXPLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF950BA520986208005B4335 /* SXPLoginViewController.m */; };
+		DF950BA820986208005B4335 /* SXPLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF950BA620986208005B4335 /* SXPLoginViewController.xib */; };
+		DF950BBB209871E1005B4335 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BBA209871E1005B4335 /* SystemConfiguration.framework */; };
+		DF950BBD209871E9005B4335 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BBC209871E9005B4335 /* libc++.tbd */; };
+		DF950BBF209871F2005B4335 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BBE209871F2005B4335 /* Photos.framework */; };
+		DF950BC120987203005B4335 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BC020987202005B4335 /* CoreTelephony.framework */; };
+		DF950BC32098720C005B4335 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BC22098720C005B4335 /* ImageIO.framework */; };
+		DF950BC520987224005B4335 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BC420987224005B4335 /* libsqlite3.tbd */; };
+		DF950BC62098722F005B4335 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DFCBF31D20971DF4007289C8 /* libz.tbd */; };
+		DF950BC82098723B005B4335 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF950BC72098723B005B4335 /* CoreData.framework */; };
+		DF950BCD209879EC005B4335 /* SXPMyInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF950BCC209879EC005B4335 /* SXPMyInfoView.m */; };
+		DF950BCF209879F8005B4335 /* SXPMyInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF950BCE209879F8005B4335 /* SXPMyInfoView.xib */; };
+		DF950BD22098881A005B4335 /* SXPSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = DF950BD12098881A005B4335 /* SXPSetting.m */; };
 		DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2077F2088B79700910127 /* SXPLaunchViewController.m */; };
 		DFB207822088B79700910127 /* SXPLaunchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207802088B79700910127 /* SXPLaunchViewController.xib */; };
 		DFB207862088BD0A00910127 /* SXPFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207842088BD0A00910127 /* SXPFollowViewController.m */; };
-		DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB207852088BD0A00910127 /* SXPFollowViewController.xib */; };
 		DFB2078B2088BD3400910127 /* SXPHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB207892088BD3400910127 /* SXPHotViewController.m */; };
 		DFB207902088BD4B00910127 /* SXPNearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB2078E2088BD4B00910127 /* SXPNearViewController.m */; };
 		DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB2078F2088BD4B00910127 /* SXPNearViewController.xib */; };
@@ -139,12 +151,27 @@
 		DF6BAD572094728800D50A60 /* SXPLiveChatViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLiveChatViewController.xib; sourceTree = "<group>"; };
 		DF94075C2096FB5D0011A268 /* LFLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFLivePreview.h; sourceTree = "<group>"; };
 		DF94075D2096FB5D0011A268 /* LFLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFLivePreview.m; sourceTree = "<group>"; };
+		DF950BA420986208005B4335 /* SXPLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLoginViewController.h; sourceTree = "<group>"; };
+		DF950BA520986208005B4335 /* SXPLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLoginViewController.m; sourceTree = "<group>"; };
+		DF950BA620986208005B4335 /* SXPLoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLoginViewController.xib; sourceTree = "<group>"; };
+		DF950BBA209871E1005B4335 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DF950BBC209871E9005B4335 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		DF950BBE209871F2005B4335 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		DF950BC020987202005B4335 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		DF950BC22098720C005B4335 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DF950BC420987224005B4335 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		DF950BC72098723B005B4335 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DF950BC92098724A005B4335 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DF950BCB209879EC005B4335 /* SXPMyInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPMyInfoView.h; sourceTree = "<group>"; };
+		DF950BCC209879EC005B4335 /* SXPMyInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPMyInfoView.m; sourceTree = "<group>"; };
+		DF950BCE209879F8005B4335 /* SXPMyInfoView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPMyInfoView.xib; sourceTree = "<group>"; };
+		DF950BD02098881A005B4335 /* SXPSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPSetting.h; sourceTree = "<group>"; };
+		DF950BD12098881A005B4335 /* SXPSetting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPSetting.m; sourceTree = "<group>"; };
 		DFB2077E2088B79700910127 /* SXPLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPLaunchViewController.h; sourceTree = "<group>"; };
 		DFB2077F2088B79700910127 /* SXPLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPLaunchViewController.m; sourceTree = "<group>"; };
 		DFB207802088B79700910127 /* SXPLaunchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPLaunchViewController.xib; sourceTree = "<group>"; };
 		DFB207832088BD0A00910127 /* SXPFollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPFollowViewController.h; sourceTree = "<group>"; };
 		DFB207842088BD0A00910127 /* SXPFollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPFollowViewController.m; sourceTree = "<group>"; };
-		DFB207852088BD0A00910127 /* SXPFollowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPFollowViewController.xib; sourceTree = "<group>"; };
 		DFB207882088BD3400910127 /* SXPHotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPHotViewController.h; sourceTree = "<group>"; };
 		DFB207892088BD3400910127 /* SXPHotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPHotViewController.m; sourceTree = "<group>"; };
 		DFB2078D2088BD4B00910127 /* SXPNearViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPNearViewController.h; sourceTree = "<group>"; };
@@ -184,6 +211,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF950BC82098723B005B4335 /* CoreData.framework in Frameworks */,
+				DF950BC62098722F005B4335 /* libz.tbd in Frameworks */,
+				DF950BC520987224005B4335 /* libsqlite3.tbd in Frameworks */,
+				DF950BC32098720C005B4335 /* ImageIO.framework in Frameworks */,
+				DF950BC120987203005B4335 /* CoreTelephony.framework in Frameworks */,
+				DF950BBF209871F2005B4335 /* Photos.framework in Frameworks */,
+				DF950BBD209871E9005B4335 /* libc++.tbd in Frameworks */,
+				DF950BBB209871E1005B4335 /* SystemConfiguration.framework in Frameworks */,
 				DF6BAD4B209460E700D50A60 /* VideoToolbox.framework in Frameworks */,
 				DF6BAD49209460DB00D50A60 /* QuartzCore.framework in Frameworks */,
 				DF6BAD47209460CD00D50A60 /* OpenGLES.framework in Frameworks */,
@@ -222,6 +257,14 @@
 		56BB8CB44F65AED18B7A915E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF950BC92098724A005B4335 /* MessageUI.framework */,
+				DF950BC72098723B005B4335 /* CoreData.framework */,
+				DF950BC420987224005B4335 /* libsqlite3.tbd */,
+				DF950BC22098720C005B4335 /* ImageIO.framework */,
+				DF950BC020987202005B4335 /* CoreTelephony.framework */,
+				DF950BBE209871F2005B4335 /* Photos.framework */,
+				DF950BBC209871E9005B4335 /* libc++.tbd */,
+				DF950BBA209871E1005B4335 /* SystemConfiguration.framework */,
 				DFCBF31F20971E02007289C8 /* libstdc++.tbd */,
 				DFCBF31D20971DF4007289C8 /* libz.tbd */,
 				DF6BAD4A209460E700D50A60 /* VideoToolbox.framework */,
@@ -354,7 +397,6 @@
 				DFDAE7FE20888A90004C0334 /* SXPMainViewController.xib */,
 				DFB207832088BD0A00910127 /* SXPFollowViewController.h */,
 				DFB207842088BD0A00910127 /* SXPFollowViewController.m */,
-				DFB207852088BD0A00910127 /* SXPFollowViewController.xib */,
 				DFB207882088BD3400910127 /* SXPHotViewController.h */,
 				DFB207892088BD3400910127 /* SXPHotViewController.m */,
 				DFB2078D2088BD4B00910127 /* SXPNearViewController.h */,
@@ -455,6 +497,8 @@
 		DF689C4120886C1600A09E2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DF950BD02098881A005B4335 /* SXPSetting.h */,
+				DF950BD12098881A005B4335 /* SXPSetting.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -462,6 +506,9 @@
 		DF689C4220886C1600A09E2E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DF950BCB209879EC005B4335 /* SXPMyInfoView.h */,
+				DF950BCC209879EC005B4335 /* SXPMyInfoView.m */,
+				DF950BCE209879F8005B4335 /* SXPMyInfoView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -472,6 +519,9 @@
 				DFDAE80120888AD6004C0334 /* SXPMyViewController.h */,
 				DFDAE80220888AD6004C0334 /* SXPMyViewController.m */,
 				DFDAE80320888AD6004C0334 /* SXPMyViewController.xib */,
+				DF950BA420986208005B4335 /* SXPLoginViewController.h */,
+				DF950BA520986208005B4335 /* SXPLoginViewController.m */,
+				DF950BA620986208005B4335 /* SXPLoginViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -655,6 +705,8 @@
 			files = (
 				DFDAE80520888AD6004C0334 /* SXPMyViewController.xib in Resources */,
 				DF606D5E2081D5D0005F450B /* Assets.xcassets in Resources */,
+				DF950BCF209879F8005B4335 /* SXPMyInfoView.xib in Resources */,
+				DF950BA820986208005B4335 /* SXPLoginViewController.xib in Resources */,
 				DFB207912088BD4B00910127 /* SXPNearViewController.xib in Resources */,
 				DFE66BA92095905A00120B3C /* SXPNearLiveCell.xib in Resources */,
 				DF606D612081D5D0005F450B /* LaunchScreen.storyboard in Resources */,
@@ -663,7 +715,6 @@
 				DFE66BAE2095A99A00120B3C /* SXPAdvertiseView.xib in Resources */,
 				DF6BAD332094418800D50A60 /* SXPShowCell.xib in Resources */,
 				DF6BAD592094728800D50A60 /* SXPLiveChatViewController.xib in Resources */,
-				DFB207872088BD0A00910127 /* SXPFollowViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -779,15 +830,18 @@
 				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
 				DF6BAD4E2094620200D50A60 /* SXPPlayerViewController.m in Sources */,
 				DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */,
+				DF950BA720986208005B4335 /* SXPLoginViewController.m in Sources */,
 				DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */,
 				DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */,
 				DF57ECBF2089E64F00A3461A /* SXPShow.m in Sources */,
 				DF6BAD322094418800D50A60 /* SXPShowCell.m in Sources */,
 				DF47E7D22089EC5E00B116B7 /* MJExtensionConfig.m in Sources */,
+				DF950BD22098881A005B4335 /* SXPSetting.m in Sources */,
 				DF689C4C20886D3700A09E2E /* AppDelegate.m in Sources */,
 				DFDAE7FB208882F3004C0334 /* SXPTabBar.m in Sources */,
 				DFE66BA42095855800120B3C /* SXPLocationManager.m in Sources */,
 				DFDAE80820888BB5004C0334 /* SXPBaseNavigationViewController.m in Sources */,
+				DF950BCD209879EC005B4335 /* SXPMyInfoView.m in Sources */,
 				DF606D642081D5D0005F450B /* main.m in Sources */,
 				DF94075E2096FB5E0011A268 /* LFLivePreview.m in Sources */,
 				DFE66BAC2095A98B00120B3C /* SXPAdvertiseView.m in Sources */,
@@ -964,11 +1018,21 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/UMSocialUI",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/SocialLibraries/QQ",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -986,11 +1050,21 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/UMSocialUI",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/SunXp_Inke/Class/Helper/Tools/SunXp_Inke.pch";
 				INFOPLIST_FILE = "SunXp_Inke/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/SunXp_Inke/Class/Lib/share_ios_6.9.1/SocialLibraries/QQ",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SunXp.SunXp-Inke";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1005,7 +1079,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1021,7 +1099,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1036,7 +1118,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1051,7 +1137,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HD56DK4J54;
 				INFOPLIST_FILE = SunXp_InkeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "SunXp.SunXp-InkeUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

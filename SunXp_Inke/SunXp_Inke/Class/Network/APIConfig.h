@@ -27,6 +27,6 @@
 #define API_NearLocation @"api/live/near_recommend"//?uid=85149891&latitude=40.090562&longitude=116.413353
 
 //平哥直播地址
-#define Live_SunXp @"rtmp://live.hkstv.hk.lxdns.com:1935/live/SunXp"
+#define Live_SunXp @"rtmp://live.hkstv.hk.lxdns.com/live/SunXp"
 
 @end

@@ -30,11 +30,17 @@
 - (void)setShow:(SXPShow *)show {
     
     _show = show;
-    [self.headView downloadImage:show.creator.portrait placeholder:@"default_room"];
+    
     self.nameLabel.text = show.creator.nick;
     self.locationLabel.text = show.city;
     self.onlineLabel.text = [@(show.onlineUsers) stringValue];
-    [self.bigImage downloadImage:show.creator.portrait placeholder:@"default_room"];
+    if ([show.creator.portrait isEqualToString:@"Image_Sun"]) {
+        [self.bigImage setImage:[UIImage imageNamed:@"Image_Sun"]];
+        [self.headView setImage:[UIImage imageNamed:@"Image_Sun"]];
+    } else {
+        [self.bigImage downloadImage:show.creator.portrait placeholder:@"default_room"];
+        [self.headView downloadImage:show.creator.portrait placeholder:@"default_room"];
+    }
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
