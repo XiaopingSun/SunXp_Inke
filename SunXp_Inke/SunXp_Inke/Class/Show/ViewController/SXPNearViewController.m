@@ -16,11 +16,19 @@
 
 static NSString *identifier = @"SXPNearLiveCell";
 
+typedef void(^RunloopBlock)(void);
+
 @interface SXPNearViewController () <UICollectionViewDelegate, UICollectionViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @property (nonatomic, strong) NSMutableArray *dataListArray;
+
+@property (nonatomic, strong) NSTimer *timer;
+
+@property (nonatomic, strong) NSMutableArray *runloopTasksArray;
+
+@property (nonatomic, assign) NSUInteger maxTaskCount;
 
 @end
 
@@ -30,8 +38,26 @@ static NSString *identifier = @"SXPNearLiveCell";
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    [self initRunloop];
     [self initUI];
     [self loadData];
+}
+
+- (void)initRunloop {
+    
+    self.runloopTasksArray = [NSMutableArray array];
+    
+    self.maxTaskCount = 60;
+    
+    // 添加timer，让主线程runloop不休眠
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:0.001 target:self selector:@selector(timerMethod) userInfo:nil repeats:YES];
+    
+    [self addRunloopObserver];
+}
+
+- (void)timerMethod {
+    
+    
 }
 
 - (void)loadData {
@@ -50,7 +76,7 @@ static NSString *identifier = @"SXPNearLiveCell";
 }
 
 - (void)collectionView:(UICollectionView *)collectionView willDisplayCell:(UICollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath {
-    
+
     SXPNearLiveCell *liveCell = (SXPNearLiveCell *)cell;
     [liveCell showAnimation];
 }
@@ -70,7 +96,11 @@ static NSString *identifier = @"SXPNearLiveCell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     
     SXPNearLiveCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:identifier forIndexPath:indexPath];
-    cell.show = self.dataListArray[indexPath.row];
+    SXPShow *show = self.dataListArray[indexPath.row];
+    cell.show = show;
+    [self addTask:^{
+        [cell.portraitImageView downloadImage:show.creator.portrait placeholder:@"default_room"];
+    }];
     return cell;
 }
 
@@ -80,6 +110,51 @@ static NSString *identifier = @"SXPNearLiveCell";
     SXPPlayerViewController *playerVC = [[SXPPlayerViewController alloc] init];
     playerVC.show = show;
     [self.navigationController pushViewController:playerVC animated:YES];
+}
+
+static void callback(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info) {
+    
+    // 取出任务执行
+    SXPNearViewController *viewController = (__bridge SXPNearViewController *)info;
+    if (viewController.runloopTasksArray.count == 0) {
+        return;
+    }
+    RunloopBlock task = viewController.runloopTasksArray.firstObject;
+    task();
+    [viewController.runloopTasksArray removeObjectAtIndex:0];
+}
+
+#pragma mark <关于Runloop的代码>
+- (void)addTask:(RunloopBlock)task {
+    
+    [self.runloopTasksArray addObject:task];
+    if (self.runloopTasksArray.count > self.maxTaskCount) {
+        // 干掉最开始的任务
+        [self.runloopTasksArray removeObjectAtIndex:0];
+    }
+}
+
+- (void)addRunloopObserver {
+    
+    // 拿到当前Runloop
+    CFRunLoopRef runloop = CFRunLoopGetCurrent();
+    
+    // 定义一个上下文
+    CFRunLoopObserverContext context = {
+        0,
+        (__bridge void *) self,
+        &CFRetain,
+        &CFRelease
+    };
+    
+    // 定义一个观察者
+    static CFRunLoopObserverRef defaultObserver;
+    // 创建观察者
+    defaultObserver = CFRunLoopObserverCreate(NULL, kCFRunLoopAfterWaiting, YES, 0, &callback, &context);
+    // 添加Runloop观察者
+    CFRunLoopAddObserver(runloop, defaultObserver, kCFRunLoopCommonModes);
+    // C语言有create就需要release
+    CFRelease(defaultObserver);
 }
 
 - (NSMutableArray *)dataListArray {

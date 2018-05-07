@@ -11,5 +11,6 @@
 
 @interface SXPNearLiveCell : UICollectionViewCell
 @property (nonatomic, strong) SXPShow *show;
+@property (strong, nonatomic) IBOutlet UIImageView *portraitImageView;
 - (void)showAnimation;
 @end

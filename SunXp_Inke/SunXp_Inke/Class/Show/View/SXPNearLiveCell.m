@@ -9,7 +9,6 @@
 #import "SXPNearLiveCell.h"
 
 @interface SXPNearLiveCell ()
-@property (strong, nonatomic) IBOutlet UIImageView *portraitImageView;
 @property (strong, nonatomic) IBOutlet UILabel *distanceLabel;
 @end
 
@@ -18,7 +17,6 @@
 - (void)setShow:(SXPShow *)show {
     
     _show = show;
-    [self.portraitImageView downloadImage:show.creator.portrait placeholder:@"default_room"];
     self.distanceLabel.text = show.distance;
 }
 
