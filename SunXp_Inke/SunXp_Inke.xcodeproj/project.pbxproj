@@ -73,6 +73,7 @@
 		DFE66BAC2095A98B00120B3C /* SXPAdvertiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BAB2095A98B00120B3C /* SXPAdvertiseView.m */; };
 		DFE66BAE2095A99A00120B3C /* SXPAdvertiseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */; };
 		DFE66BB12095AF6300120B3C /* SXPCacheHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE66BB02095AF6300120B3C /* SXPCacheHelper.m */; };
+		DFFEE0FE20A007A800103BAA /* SXPFirstLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFEE0FD20A007A800103BAA /* SXPFirstLaunchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,6 +203,8 @@
 		DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SXPAdvertiseView.xib; sourceTree = "<group>"; };
 		DFE66BAF2095AF6300120B3C /* SXPCacheHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPCacheHelper.h; sourceTree = "<group>"; };
 		DFE66BB02095AF6300120B3C /* SXPCacheHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPCacheHelper.m; sourceTree = "<group>"; };
+		DFFEE0FC20A007A800103BAA /* SXPFirstLaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SXPFirstLaunchViewController.h; sourceTree = "<group>"; };
+		DFFEE0FD20A007A800103BAA /* SXPFirstLaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SXPFirstLaunchViewController.m; sourceTree = "<group>"; };
 		EA9B87BA48BC56145B86948D /* Pods-SunXp_Inke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.debug.xcconfig"; sourceTree = "<group>"; };
 		F364DEEAE41368CC5151D13F /* Pods-SunXp_Inke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunXp_Inke.release.xcconfig"; path = "Pods/Target Support Files/Pods-SunXp_Inke/Pods-SunXp_Inke.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -580,6 +583,8 @@
 				DFE66BAA2095A98B00120B3C /* SXPAdvertiseView.h */,
 				DFE66BAB2095A98B00120B3C /* SXPAdvertiseView.m */,
 				DFE66BAD2095A99A00120B3C /* SXPAdvertiseView.xib */,
+				DFFEE0FC20A007A800103BAA /* SXPFirstLaunchViewController.h */,
+				DFFEE0FD20A007A800103BAA /* SXPFirstLaunchViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -830,6 +835,7 @@
 				DFB207812088B79700910127 /* SXPLaunchViewController.m in Sources */,
 				DF6BAD4E2094620200D50A60 /* SXPPlayerViewController.m in Sources */,
 				DF6BAD582094728800D50A60 /* SXPLiveChatViewController.m in Sources */,
+				DFFEE0FE20A007A800103BAA /* SXPFirstLaunchViewController.m in Sources */,
 				DF950BA720986208005B4335 /* SXPLoginViewController.m in Sources */,
 				DF57ECAD2089CA4500A3461A /* SXPMainTopView.m in Sources */,
 				DF57ECB62089D7ED00A3461A /* UIImageView+SDWebImage.m in Sources */,

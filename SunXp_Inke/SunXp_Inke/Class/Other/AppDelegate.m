@@ -10,6 +10,8 @@
 #import "SXPTabBarViewController.h"
 #import "SXPLocationManager.h"
 #import "SXPAdvertiseView.h"
+#import "SXPFirstLaunchViewController.h"
+#import "SXPCacheHelper.h"
 
 @interface AppDelegate ()
 
@@ -21,17 +23,21 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    SXPTabBarViewController *rootVC = [[SXPTabBarViewController alloc] init];
-    self.window.rootViewController = rootVC;
-    
+    if ([SXPCacheHelper isFirstLaunch]) {
+        SXPFirstLaunchViewController *rootVC = [[SXPFirstLaunchViewController alloc] init];
+        self.window.rootViewController = rootVC;
+    } else {
+        SXPTabBarViewController *rootVC = [[SXPTabBarViewController alloc] init];
+        self.window.rootViewController = rootVC;
+    }
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
-    
-    [[SXPLocationManager sharedManager] getGps:nil];
     
     SXPAdvertiseView *adView = [SXPAdvertiseView loadAdvertiseView];
     [self.window addSubview:adView];
     
+    [[SXPLocationManager sharedManager] getGps:nil];
+        
     return YES;
 }
 

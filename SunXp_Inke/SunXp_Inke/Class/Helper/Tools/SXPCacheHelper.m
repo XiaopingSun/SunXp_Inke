@@ -9,6 +9,8 @@
 #import "SXPCacheHelper.h"
 
 #define kAdImageKey @"AdImageKey"
+#define kFirstLaunch @"firstLaunch"
+#define kVersion @"1.0.0_R"
 
 @implementation SXPCacheHelper
 + (NSString *)getAdvertiseImage {
@@ -20,5 +22,22 @@
     
     [[NSUserDefaults standardUserDefaults] setObject:API_Advertise forKey:kAdImageKey];
     [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
++ (BOOL)isFirstLaunch {
+    
+    NSString *version = [[NSUserDefaults standardUserDefaults] objectForKey:kFirstLaunch];
+    
+    if (version && [version isEqualToString:kVersion]) {
+        
+        return NO;
+        
+    } else {
+        
+        [[NSUserDefaults standardUserDefaults] setObject:kVersion forKey:kFirstLaunch];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        return YES;
+    }
 }
 @end

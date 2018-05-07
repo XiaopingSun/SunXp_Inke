@@ -60,7 +60,15 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
+    NSArray *subviews = self.subviews;
     
+    for (UIView *view in subviews) {
+        Class class = NSClassFromString(@"UITabBarButton");
+        if ([view isKindOfClass:class]) {
+            [view removeFromSuperview];
+        }
+    }
+
     self.bgImageView.frame = self.bounds;
     CGFloat width = self.bounds.size.width / self.dataArray.count;
     for (NSInteger i = 0; i < [self subviews].count; i++) {
@@ -97,6 +105,17 @@
             sender.transform = CGAffineTransformMakeScale(1.0, 1.0);
         }];
     }];
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
+    
+    if (!self.cameraButton.hidden) {
+        CGPoint pointInCamera = [self convertPoint:point toView:self.cameraButton];
+        if ([self.cameraButton pointInside:pointInCamera withEvent:event]) {
+            return self.cameraButton;
+        }
+    }
+    return [super hitTest:point withEvent:event];
 }
 
 - (UIButton *)cameraButton {

@@ -41,7 +41,7 @@
         [controllerArray replaceObjectAtIndex:i withObject:nc];
     }
     self.viewControllers = controllerArray;
-    [self.tabBar addSubview:self.SXPTabBar];
+    [self setValue:self.SXPTabBar forKey:@"tabBar"];
 }
 
 #pragma mark - SXPTabBarDelegate

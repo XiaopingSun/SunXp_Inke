@@ -25,7 +25,7 @@ typedef void(^SXPTabBarBlock)(SXPTabBar *tabbar, SXPTabBarItemType type);
 
 @end
 
-@interface SXPTabBar : UIView
+@interface SXPTabBar : UITabBar
 
 @property (nonatomic, weak) id<SXPTabBarDelegate> delegate;
 

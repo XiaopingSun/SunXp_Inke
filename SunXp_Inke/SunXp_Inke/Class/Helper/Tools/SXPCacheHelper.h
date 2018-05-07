@@ -14,4 +14,6 @@
 
 + (void)setAdvertiseImage:(NSString *)adImage;
 
++ (BOOL)isFirstLaunch;
+
 @end
