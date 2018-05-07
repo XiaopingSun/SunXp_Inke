@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SXPLiveChatViewController">
             <connections>
+                <outlet property="heartImageView" destination="hJl-fq-j5c" id="Krt-3j-8Hc"/>
                 <outlet property="iconView" destination="jyP-G9-PVY" id="8nT-KW-Gid"/>
                 <outlet property="peopleCountL" destination="ZVw-LR-Pfn" id="ZZT-Nq-14L"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -30,8 +31,9 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_xinxi_h" translatesAutoresizingMaskIntoConstraints="NO" id="s15-s2-H92">
                             <rect key="frame" x="175" y="10" width="40" height="40"/>
                         </imageView>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_liwu_h" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-fq-j5c">
+                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_liwu_h" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-fq-j5c">
                             <rect key="frame" x="225" y="10" width="40" height="40"/>
+                            <gestureRecognizers/>
                         </imageView>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mg_room_btn_fenxiang_h" translatesAutoresizingMaskIntoConstraints="NO" id="4km-SG-UGM">
                             <rect key="frame" x="275" y="10.5" width="40" height="40"/>
